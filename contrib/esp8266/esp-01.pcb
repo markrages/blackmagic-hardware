@@ -1,0 +1,2244 @@
+# release: pcb 20140316
+
+# To read pcb files, the pcb version (or the git source date) must be >= the file version
+FileVersion[20091103]
+
+PCB["ESP-01 BMP" 940.00mil 1000.00mil]
+
+Grid[1000.000000 0.0000 0.0000 0]
+PolyArea[200000000.000000]
+Thermal[0.500000]
+DRC[6.00mil 6.00mil 6.00mil 6.00mil 13.00mil 7.00mil]
+Flags("nameonpcb,uniquename,snappin")
+Groups("1,c:2,s:3:4")
+Styles["Signal,7.00mil,28.00mil,14.00mil,7.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
+
+Symbol[' ' 18.00mil]
+(
+)
+Symbol['!' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 0.0000 35.00mil 8.00mil]
+)
+Symbol['"' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 20.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 10.00mil 20.00mil 8.00mil]
+)
+Symbol['#' 12.00mil]
+(
+	SymbolLine[0.0000 35.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 20.00mil 25.00mil 8.00mil]
+	SymbolLine[15.00mil 20.00mil 15.00mil 40.00mil 8.00mil]
+	SymbolLine[5.00mil 20.00mil 5.00mil 40.00mil 8.00mil]
+)
+Symbol['$' 12.00mil]
+(
+	SymbolLine[15.00mil 15.00mil 20.00mil 20.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 15.00mil 15.00mil 8.00mil]
+	SymbolLine[0.0000 20.00mil 5.00mil 15.00mil 8.00mil]
+	SymbolLine[0.0000 20.00mil 0.0000 25.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[15.00mil 45.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[5.00mil 45.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['%' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 0.0000 20.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 15.00mil 15.00mil 8.00mil]
+	SymbolLine[15.00mil 15.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[10.00mil 25.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[5.00mil 25.00mil 10.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 20.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 40.00mil 10.00mil 8.00mil]
+	SymbolLine[35.00mil 50.00mil 40.00mil 45.00mil 8.00mil]
+	SymbolLine[40.00mil 40.00mil 40.00mil 45.00mil 8.00mil]
+	SymbolLine[35.00mil 35.00mil 40.00mil 40.00mil 8.00mil]
+	SymbolLine[30.00mil 35.00mil 35.00mil 35.00mil 8.00mil]
+	SymbolLine[25.00mil 40.00mil 30.00mil 35.00mil 8.00mil]
+	SymbolLine[25.00mil 40.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[25.00mil 45.00mil 30.00mil 50.00mil 8.00mil]
+	SymbolLine[30.00mil 50.00mil 35.00mil 50.00mil 8.00mil]
+)
+Symbol['&' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 25.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 15.00mil 15.00mil 8.00mil]
+	SymbolLine[15.00mil 15.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+)
+Symbol[''' 12.00mil]
+(
+	SymbolLine[0.0000 20.00mil 10.00mil 10.00mil 8.00mil]
+)
+Symbol['(' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+)
+Symbol[')' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 5.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 5.00mil 45.00mil 8.00mil]
+)
+Symbol['*' 12.00mil]
+(
+	SymbolLine[0.0000 20.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 20.00mil 20.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 20.00mil 10.00mil 40.00mil 8.00mil]
+)
+Symbol['+' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 20.00mil 10.00mil 40.00mil 8.00mil]
+)
+Symbol[',' 12.00mil]
+(
+	SymbolLine[0.0000 60.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['-' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol['.' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['/' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 30.00mil 15.00mil 8.00mil]
+)
+Symbol['0' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 20.00mil 20.00mil 8.00mil]
+)
+Symbol['1' 12.00mil]
+(
+	SymbolLine[0.0000 18.00mil 8.00mil 10.00mil 8.00mil]
+	SymbolLine[8.00mil 10.00mil 8.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 15.00mil 50.00mil 8.00mil]
+)
+Symbol['2' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[25.00mil 15.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['3' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 28.00mil 15.00mil 28.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 23.00mil 8.00mil]
+	SymbolLine[20.00mil 33.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 33.00mil 15.00mil 28.00mil 8.00mil]
+	SymbolLine[20.00mil 23.00mil 15.00mil 28.00mil 8.00mil]
+)
+Symbol['4' 12.00mil]
+(
+	SymbolLine[0.0000 35.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['5' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 0.0000 30.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[5.00mil 25.00mil 15.00mil 25.00mil 8.00mil]
+	SymbolLine[15.00mil 25.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['6' 12.00mil]
+(
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 28.00mil 20.00mil 33.00mil 8.00mil]
+	SymbolLine[0.0000 28.00mil 15.00mil 28.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 33.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['7' 12.00mil]
+(
+	SymbolLine[5.00mil 50.00mil 25.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 25.00mil 10.00mil 8.00mil]
+)
+Symbol['8' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 37.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 37.00mil 7.00mil 30.00mil 8.00mil]
+	SymbolLine[7.00mil 30.00mil 13.00mil 30.00mil 8.00mil]
+	SymbolLine[13.00mil 30.00mil 20.00mil 37.00mil 8.00mil]
+	SymbolLine[20.00mil 37.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 23.00mil 7.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 23.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 23.00mil 8.00mil]
+	SymbolLine[13.00mil 30.00mil 20.00mil 23.00mil 8.00mil]
+)
+Symbol['9' 12.00mil]
+(
+	SymbolLine[5.00mil 50.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 25.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol[':' 12.00mil]
+(
+	SymbolLine[0.0000 25.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 35.00mil 8.00mil]
+)
+Symbol[';' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 10.00mil 40.00mil 8.00mil]
+	SymbolLine[10.00mil 25.00mil 10.00mil 30.00mil 8.00mil]
+)
+Symbol['<' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 10.00mil 20.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 10.00mil 40.00mil 8.00mil]
+)
+Symbol['=' 12.00mil]
+(
+	SymbolLine[0.0000 25.00mil 20.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 20.00mil 35.00mil 8.00mil]
+)
+Symbol['>' 12.00mil]
+(
+	SymbolLine[0.0000 20.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 10.00mil 30.00mil 8.00mil]
+)
+Symbol['?' 12.00mil]
+(
+	SymbolLine[10.00mil 30.00mil 10.00mil 35.00mil 8.00mil]
+	SymbolLine[10.00mil 45.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 20.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 20.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 20.00mil 8.00mil]
+)
+Symbol['@' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 40.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 40.00mil 50.00mil 8.00mil]
+	SymbolLine[50.00mil 35.00mil 50.00mil 10.00mil 8.00mil]
+	SymbolLine[50.00mil 10.00mil 40.00mil 0.0000 8.00mil]
+	SymbolLine[40.00mil 0.0000 10.00mil 0.0000 8.00mil]
+	SymbolLine[10.00mil 0.0000 0.0000 10.00mil 8.00mil]
+	SymbolLine[15.00mil 20.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 30.00mil 35.00mil 8.00mil]
+	SymbolLine[30.00mil 35.00mil 35.00mil 30.00mil 8.00mil]
+	SymbolLine[35.00mil 30.00mil 40.00mil 35.00mil 8.00mil]
+	SymbolLine[35.00mil 30.00mil 35.00mil 15.00mil 8.00mil]
+	SymbolLine[35.00mil 20.00mil 30.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 30.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[40.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+)
+Symbol['A' 12.00mil]
+(
+	SymbolLine[0.0000 20.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 20.00mil 7.00mil 10.00mil 8.00mil]
+	SymbolLine[7.00mil 10.00mil 18.00mil 10.00mil 8.00mil]
+	SymbolLine[18.00mil 10.00mil 25.00mil 20.00mil 8.00mil]
+	SymbolLine[25.00mil 20.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 25.00mil 30.00mil 8.00mil]
+)
+Symbol['B' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[25.00mil 33.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 28.00mil 25.00mil 33.00mil 8.00mil]
+	SymbolLine[5.00mil 28.00mil 20.00mil 28.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[25.00mil 15.00mil 25.00mil 23.00mil 8.00mil]
+	SymbolLine[20.00mil 28.00mil 25.00mil 23.00mil 8.00mil]
+)
+Symbol['C' 12.00mil]
+(
+	SymbolLine[7.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 43.00mil 7.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 17.00mil 0.0000 43.00mil 8.00mil]
+	SymbolLine[0.0000 17.00mil 7.00mil 10.00mil 8.00mil]
+	SymbolLine[7.00mil 10.00mil 20.00mil 10.00mil 8.00mil]
+)
+Symbol['D' 12.00mil]
+(
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[18.00mil 10.00mil 25.00mil 17.00mil 8.00mil]
+	SymbolLine[25.00mil 17.00mil 25.00mil 43.00mil 8.00mil]
+	SymbolLine[18.00mil 50.00mil 25.00mil 43.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 18.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 18.00mil 10.00mil 8.00mil]
+)
+Symbol['E' 12.00mil]
+(
+	SymbolLine[0.0000 28.00mil 15.00mil 28.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+)
+Symbol['F' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 28.00mil 15.00mil 28.00mil 8.00mil]
+)
+Symbol['G' 12.00mil]
+(
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[25.00mil 35.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol['H' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[25.00mil 10.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 25.00mil 30.00mil 8.00mil]
+)
+Symbol['I' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['J' 12.00mil]
+(
+	SymbolLine[7.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 0.0000 40.00mil 8.00mil]
+)
+Symbol['K' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['L' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['M' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 30.00mil 10.00mil 8.00mil]
+	SymbolLine[30.00mil 10.00mil 30.00mil 50.00mil 8.00mil]
+)
+Symbol['N' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[25.00mil 10.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['O' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['P' 12.00mil]
+(
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[25.00mil 15.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol['Q' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 35.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['R' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[25.00mil 15.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[13.00mil 30.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['S' 12.00mil]
+(
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 25.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[25.00mil 35.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['T' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['U' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['V' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 20.00mil 10.00mil 8.00mil]
+)
+Symbol['W' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 30.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[25.00mil 50.00mil 30.00mil 30.00mil 8.00mil]
+	SymbolLine[30.00mil 30.00mil 30.00mil 10.00mil 8.00mil]
+)
+Symbol['X' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 25.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['Y' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['Z' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 25.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 25.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['[' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['\' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 30.00mil 45.00mil 8.00mil]
+)
+Symbol[']' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['^' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 10.00mil 15.00mil 8.00mil]
+)
+Symbol['_' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['a' 12.00mil]
+(
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 45.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['b' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+)
+Symbol['c' 12.00mil]
+(
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['d' 12.00mil]
+(
+	SymbolLine[20.00mil 10.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+)
+Symbol['e' 12.00mil]
+(
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[20.00mil 40.00mil 20.00mil 35.00mil 8.00mil]
+)
+Symbol['f' 10.00mil]
+(
+	SymbolLine[5.00mil 15.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 10.00mil 30.00mil 8.00mil]
+)
+Symbol['g' 12.00mil]
+(
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[0.0000 60.00mil 5.00mil 65.00mil 8.00mil]
+	SymbolLine[5.00mil 65.00mil 15.00mil 65.00mil 8.00mil]
+	SymbolLine[15.00mil 65.00mil 20.00mil 60.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 60.00mil 8.00mil]
+)
+Symbol['h' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['i' 10.00mil]
+(
+	SymbolLine[0.0000 20.00mil 0.0000 21.00mil 10.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 50.00mil 8.00mil]
+)
+Symbol['j' 10.00mil]
+(
+	SymbolLine[5.00mil 20.00mil 5.00mil 21.00mil 10.00mil]
+	SymbolLine[5.00mil 35.00mil 5.00mil 60.00mil 8.00mil]
+	SymbolLine[0.0000 65.00mil 5.00mil 60.00mil 8.00mil]
+)
+Symbol['k' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 10.00mil 25.00mil 8.00mil]
+)
+Symbol['l' 10.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['m' 12.00mil]
+(
+	SymbolLine[5.00mil 35.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
+	SymbolLine[25.00mil 30.00mil 30.00mil 30.00mil 8.00mil]
+	SymbolLine[30.00mil 30.00mil 35.00mil 35.00mil 8.00mil]
+	SymbolLine[35.00mil 35.00mil 35.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+)
+Symbol['n' 12.00mil]
+(
+	SymbolLine[5.00mil 35.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+)
+Symbol['o' 12.00mil]
+(
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['p' 12.00mil]
+(
+	SymbolLine[5.00mil 35.00mil 5.00mil 65.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[25.00mil 35.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 45.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['q' 12.00mil]
+(
+	SymbolLine[20.00mil 35.00mil 20.00mil 65.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['r' 12.00mil]
+(
+	SymbolLine[5.00mil 35.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+)
+Symbol['s' 12.00mil]
+(
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 40.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 40.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 40.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['t' 10.00mil]
+(
+	SymbolLine[5.00mil 10.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 45.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 10.00mil 25.00mil 8.00mil]
+)
+Symbol['u' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['v' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['w' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 45.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[25.00mil 50.00mil 30.00mil 45.00mil 8.00mil]
+	SymbolLine[30.00mil 30.00mil 30.00mil 45.00mil 8.00mil]
+)
+Symbol['x' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol['y' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 60.00mil 8.00mil]
+	SymbolLine[15.00mil 65.00mil 20.00mil 60.00mil 8.00mil]
+	SymbolLine[5.00mil 65.00mil 15.00mil 65.00mil 8.00mil]
+	SymbolLine[0.0000 60.00mil 5.00mil 65.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['z' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['{' 12.00mil]
+(
+	SymbolLine[5.00mil 15.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 45.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['|' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+)
+Symbol['}' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 5.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[5.00mil 25.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 5.00mil 45.00mil 8.00mil]
+)
+Symbol['~' 12.00mil]
+(
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 15.00mil 35.00mil 8.00mil]
+	SymbolLine[15.00mil 35.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
+)
+Attribute("PCB::grid::unit" "mil")
+Attribute("PCB::grid::size" "10.00mil")
+Via[610.00mil 850.00mil 28.00mil 14.00mil 0.0000 14.00mil "" ""]
+Via[600.00mil 900.00mil 28.00mil 14.00mil 0.0000 14.00mil "" ""]
+Via[540.00mil 200.00mil 28.00mil 14.00mil 0.0000 14.00mil "" ""]
+Via[680.00mil 200.00mil 28.00mil 14.00mil 0.0000 14.00mil "" ""]
+Via[720.00mil 400.00mil 28.00mil 14.00mil 0.0000 14.00mil "" ""]
+Via[600.00mil 420.00mil 28.00mil 14.00mil 0.0000 14.00mil "" ""]
+Via[300.00mil 420.00mil 28.00mil 14.00mil 0.0000 14.00mil "" ""]
+Via[200.00mil 560.00mil 28.00mil 14.00mil 0.0000 14.00mil "" ""]
+Via[250.00mil 690.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[400.00mil 650.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[490.00mil 710.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[610.00mil 710.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[830.00mil 650.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[50.00mil 930.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[50.00mil 800.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[50.00mil 640.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[50.00mil 470.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[50.00mil 310.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[110.00mil 240.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[910.00mil 310.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[320.00mil 240.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[430.00mil 240.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[690.00mil 520.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[610.00mil 240.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[800.00mil 340.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[800.00mil 410.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[710.00mil 590.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[580.00mil 960.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[780.00mil 960.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[900.00mil 960.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[400.00mil 490.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[500.00mil 390.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[520.00mil 490.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+Via[590.00mil 340.00mil 28.00mil 14.00mil 0.0000 14.00mil "" "thermal(0S,1S)"]
+
+Element["" "ESP-01.fp" "U2" "unknown" 3.8294mm 915.00mil 11.2836mm -7.2196mm 0 100 ""]
+(
+	Pin[0.0000 0.0000 68.00mil 20.00mil 76.00mil 40.00mil "GND" "1" "square"]
+	Pin[0.0000 -100.00mil 68.00mil 20.00mil 76.00mil 40.00mil "GND" "2" "thermal(0X,1X)"]
+	Pin[100.00mil 0.0000 68.00mil 20.00mil 76.00mil 40.00mil "GND" "3" ""]
+	Pin[100.00mil -100.00mil 68.00mil 20.00mil 76.00mil 40.00mil "GND" "4" ""]
+	Pin[200.00mil 0.0000 68.00mil 20.00mil 76.00mil 40.00mil "GND" "5" ""]
+	Pin[200.00mil -100.00mil 68.00mil 20.00mil 76.00mil 40.00mil "GND" "6" ""]
+	Pin[300.00mil 0.0000 68.00mil 20.00mil 76.00mil 40.00mil "GND" "7" ""]
+	Pin[300.00mil -100.00mil 68.00mil 20.00mil 76.00mil 40.00mil "GND" "8" ""]
+	ElementLine [-130.00mil -900.00mil -130.00mil 70.00mil 10.00mil]
+	ElementLine [-130.00mil -900.00mil 430.00mil -900.00mil 10.00mil]
+	ElementLine [430.00mil -900.00mil 430.00mil 70.00mil 10.00mil]
+	ElementLine [-130.00mil 70.00mil 430.00mil 70.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 7.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 7.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 7.00mil]
+	ElementLine [350.00mil -150.00mil 350.00mil 50.00mil 7.00mil]
+	ElementLine [-50.00mil -150.00mil 350.00mil -150.00mil 7.00mil]
+	ElementLine [-50.00mil -150.00mil -50.00mil -50.00mil 7.00mil]
+
+	)
+
+Element["" "0402" "R2" "2k" 640.00mil 320.00mil -51.50mil -81.50mil 0 100 ""]
+(
+	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
+	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
+
+	)
+
+Element["" "0402" "C1" "100n" 640.00mil 530.00mil 28.50mil -21.50mil 0 100 ""]
+(
+	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
+	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
+
+	)
+
+Element["" "0402" "R3" "100k" 640.00mil 390.00mil 27.02mil -11.50mil 0 100 ""]
+(
+	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
+	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
+
+	)
+
+Element["" "0402" "R4" "100k" 640.00mil 460.00mil 28.50mil -21.50mil 0 100 ""]
+(
+	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
+	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
+
+	)
+
+Element["" "0402" "R1" "0E" 640.00mil 600.00mil 32.76mil -21.50mil 0 100 ""]
+(
+	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
+	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
+
+	)
+
+Element["" "CONNECTOR-6-1" "J1" "unknown" 870.00mil 60.00mil -110.00mil 490.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
+	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" ""]
+	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" ""]
+	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" ""]
+	Pin[0.0000 400.00mil 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" ""]
+	Pin[0.0000 500.00mil 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" ""]
+	ElementLine [-50.00mil -50.00mil -50.00mil 550.00mil 10.00mil]
+	ElementLine [-50.00mil 550.00mil 50.00mil 550.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 550.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+
+	)
+
+Element["" "SOT23" "D1" "BAT54S" 691.00mil 122.00mil -89.00mil -36.00mil 0 100 ""]
+(
+	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 30.00mil 40.00mil "1" "1" "square,edge2"]
+	Pad[78.00mil -3.00mil 78.00mil 3.00mil 34.00mil 30.00mil 40.00mil "2" "2" "square,edge2"]
+	Pad[39.00mil -85.00mil 39.00mil -79.00mil 34.00mil 30.00mil 40.00mil "3" "3" "square"]
+	ElementLine [-25.00mil -110.00mil -25.00mil 29.00mil 10.00mil]
+	ElementLine [-25.00mil 29.00mil 103.00mil 29.00mil 10.00mil]
+	ElementLine [103.00mil -110.00mil 103.00mil 29.00mil 10.00mil]
+	ElementLine [-25.00mil -110.00mil 103.00mil -110.00mil 10.00mil]
+
+	)
+
+Element["" "SOT23" "D2" "BAT54S" 690.00mil 270.00mil -100.00mil -113.00mil 0 100 ""]
+(
+	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 30.00mil 40.00mil "1" "1" "square,edge2"]
+	Pad[78.00mil -3.00mil 78.00mil 3.00mil 34.00mil 30.00mil 40.00mil "2" "2" "square,edge2"]
+	Pad[39.00mil -85.00mil 39.00mil -79.00mil 34.00mil 30.00mil 40.00mil "3" "3" "square"]
+	ElementLine [-25.00mil 29.00mil -25.00mil -110.00mil 10.00mil]
+	ElementLine [-25.00mil 29.00mil 103.00mil 29.00mil 10.00mil]
+	ElementLine [103.00mil 29.00mil 103.00mil -110.00mil 10.00mil]
+	ElementLine [-25.00mil -110.00mil 103.00mil -110.00mil 10.00mil]
+
+	)
+
+Element["" "0402" "C2" "100n" 730.00mil 340.00mil 0.6813mm -29.88mil 0 100 ""]
+(
+	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
+	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
+
+	)
+
+Element["" "FTSH10.fp" "J3" "unknown" 790.00mil 810.00mil -30.00mil -205.00mil 0 100 ""]
+(
+	Pad[55.00mil -100.00mil 125.00mil -100.00mil 29.00mil 16.00mil 34.00mil "" "9" "square,edge2"]
+	Pad[55.00mil -50.00mil 125.00mil -50.00mil 29.00mil 16.00mil 34.00mil "" "7" "square,edge2"]
+	Pad[55.00mil 0.0000 125.00mil 0.0000 29.00mil 16.00mil 34.00mil "" "5" "square,edge2"]
+	Pad[55.00mil 50.00mil 125.00mil 50.00mil 29.00mil 16.00mil 34.00mil "" "3" "square,edge2"]
+	Pad[55.00mil 100.00mil 125.00mil 100.00mil 29.00mil 16.00mil 34.00mil "" "1" "edge2"]
+	Pad[-125.00mil -100.00mil -55.00mil -100.00mil 29.00mil 16.00mil 34.00mil "" "10" "square"]
+	Pad[-125.00mil -50.00mil -55.00mil -50.00mil 29.00mil 16.00mil 34.00mil "" "8" "square"]
+	Pad[-125.00mil 0.0000 -55.00mil 0.0000 29.00mil 16.00mil 34.00mil "" "6" "square"]
+	Pad[-125.00mil 50.00mil -55.00mil 50.00mil 29.00mil 16.00mil 34.00mil "" "4" "square"]
+	Pad[-125.00mil 100.00mil -55.00mil 100.00mil 29.00mil 16.00mil 34.00mil "" "2" "square"]
+	ElementLine [-65.00mil -140.00mil 65.00mil -140.00mil 8.00mil]
+	ElementLine [-65.00mil 140.00mil 75.00mil 140.00mil 8.00mil]
+
+	)
+Layer(1 "top")
+(
+	Line[11.4494mm 915.00mil 455.00mil 915.00mil 25.00mil 20.00mil "clearline"]
+	Line[11.4494mm 915.00mil 470.00mil 915.00mil 25.00mil 20.00mil "clearline"]
+	Line[470.00mil 915.00mil 475.00mil 920.00mil 25.00mil 20.00mil "clearline"]
+	Line[475.00mil 920.00mil 520.00mil 920.00mil 25.00mil 20.00mil "clearline"]
+	Line[750.00mil 640.00mil 660.00mil 640.00mil 25.00mil 20.00mil "clearline"]
+	Line[660.00mil 640.00mil 640.00mil 620.00mil 25.00mil 20.00mil "clearline"]
+	Line[640.00mil 620.00mil 640.00mil 615.74mil 25.00mil 20.00mil "clearline"]
+	Line[550.00mil 890.00mil 550.00mil 590.00mil 25.00mil 20.00mil "clearline"]
+	Line[16.1562mm 545.74mil 635.74mil 13.8702mm 7.00mil 14.00mil "clearline"]
+	Line[635.74mil 13.8702mm 635.74mil 584.26mil 7.00mil 14.00mil "clearline"]
+	Line[16.1562mm 475.74mil 16.0480mm 480.00mil 7.00mil 14.00mil "clearline"]
+	Line[16.0480mm 480.00mil 590.00mil 480.00mil 7.00mil 14.00mil "clearline"]
+	Line[16.1562mm 9.5062mm 605.74mil 9.5062mm 7.00mil 14.00mil "clearline"]
+	Line[3.8294mm 915.00mil 200.00mil 21.9904mm 7.00mil 14.00mil "clearline"]
+	Line[200.00mil 21.9904mm 200.00mil 560.00mil 7.00mil 14.00mil "clearline"]
+	Line[730.00mil 37.00mil 733.00mil 40.00mil 7.00mil 14.00mil "clearline"]
+	Line[733.00mil 40.00mil 770.00mil 40.00mil 7.00mil 14.00mil "clearline"]
+	Line[770.00mil 40.00mil 810.00mil 80.00mil 7.00mil 14.00mil "clearline"]
+	Line[810.00mil 80.00mil 810.00mil 300.00mil 7.00mil 14.00mil "clearline"]
+	Line[810.00mil 300.00mil 870.00mil 360.00mil 7.00mil 14.00mil "clearline"]
+	Line[870.00mil 560.00mil 830.00mil 560.00mil 7.00mil 14.00mil "clearline"]
+	Line[830.00mil 560.00mil 768.00mil 498.00mil 7.00mil 14.00mil "clearline"]
+	Line[768.00mil 498.00mil 768.00mil 270.00mil 7.00mil 14.00mil "clearline"]
+	Line[729.00mil 185.00mil 730.00mil 186.00mil 7.00mil 14.00mil "clearline"]
+	Line[730.00mil 186.00mil 730.00mil 330.00mil 7.00mil 14.00mil "clearline"]
+	Line[890.00mil 910.00mil 820.00mil 910.00mil 25.00mil 20.00mil "clearline"]
+	Line[820.00mil 910.00mil 790.00mil 880.00mil 25.00mil 20.00mil "clearline"]
+	Line[790.00mil 680.00mil 750.00mil 640.00mil 25.00mil 20.00mil "clearline"]
+	Line[790.00mil 880.00mil 790.00mil 680.00mil 25.00mil 20.00mil "clearline"]
+	Line[16.1562mm 9.5062mm 640.00mil 9.4064mm 7.00mil 14.00mil "clearline"]
+	Line[640.00mil 9.4064mm 640.00mil 8.5278mm 7.00mil 14.00mil "clearline"]
+	Line[690.00mil 267.00mil 680.00mil 277.00mil 7.00mil 14.00mil "clearline"]
+	Line[680.00mil 277.00mil 680.00mil 420.00mil 7.00mil 14.00mil "clearline"]
+	Line[680.00mil 420.00mil 655.74mil 444.26mil 7.00mil 14.00mil "clearline"]
+	Line[655.74mil 444.26mil 640.00mil 444.26mil 7.00mil 14.00mil "clearline"]
+	Line[550.00mil 590.00mil 574.26mil 565.74mil 25.00mil 20.00mil "clearline"]
+	Line[574.26mil 565.74mil 635.74mil 565.74mil 25.00mil 20.00mil "clearline"]
+	Line[520.00mil 920.00mil 550.00mil 890.00mil 25.00mil 20.00mil "clearline"]
+	Line[665.00mil 860.00mil 620.00mil 860.00mil 7.00mil 14.00mil "clearline"]
+	Line[620.00mil 860.00mil 610.00mil 850.00mil 7.00mil 14.00mil "clearline"]
+	Line[665.00mil 910.00mil 610.00mil 910.00mil 7.00mil 14.00mil "clearline"]
+	Line[610.00mil 910.00mil 600.00mil 900.00mil 7.00mil 14.00mil "clearline"]
+	Line[691.00mil 119.00mil 640.00mil 170.00mil 7.00mil 14.00mil "clearline"]
+	Line[640.00mil 170.00mil 640.00mil 7.7282mm 7.00mil 14.00mil "clearline"]
+	Line[11.4494mm 815.00mil 450.00mil 20.6816mm 7.00mil 14.00mil "clearline"]
+	Line[450.00mil 20.6816mm 450.00mil 360.00mil 7.00mil 14.00mil "clearline"]
+	Line[450.00mil 360.00mil 510.00mil 300.00mil 7.00mil 14.00mil "clearline"]
+	Line[510.00mil 300.00mil 640.00mil 300.00mil 7.00mil 14.00mil "clearline"]
+	Line[8.9094mm 815.00mil 350.00mil 20.6816mm 7.00mil 14.00mil "clearline"]
+	Line[350.00mil 20.6816mm 350.00mil 270.00mil 7.00mil 14.00mil "clearline"]
+	Line[350.00mil 270.00mil 420.00mil 200.00mil 7.00mil 14.00mil "clearline"]
+	Line[420.00mil 200.00mil 540.00mil 200.00mil 7.00mil 14.00mil "clearline"]
+	Line[690.00mil 267.00mil 680.00mil 257.00mil 7.00mil 14.00mil "clearline"]
+	Line[680.00mil 257.00mil 680.00mil 200.00mil 7.00mil 14.00mil "clearline"]
+	Line[18.4422mm 9.0358mm 18.4422mm 10.0058mm 7.00mil 14.00mil "clearline"]
+	Line[18.4422mm 10.0058mm 720.00mil 400.00mil 7.00mil 14.00mil "clearline"]
+	Line[600.00mil 420.00mil 614.26mil 405.74mil 7.00mil 14.00mil "clearline"]
+	Line[614.26mil 405.74mil 640.00mil 405.74mil 7.00mil 14.00mil "clearline"]
+	Line[6.3694mm 915.00mil 300.00mil 21.9904mm 7.00mil 14.00mil "clearline"]
+	Line[300.00mil 21.9904mm 300.00mil 420.00mil 7.00mil 14.00mil "clearline"]
+	Line[550.00mil 580.00mil 550.00mil 390.00mil 7.00mil 14.00mil "clearline"]
+	Line[550.00mil 390.00mil 565.74mil 9.5062mm 7.00mil 14.00mil "clearline"]
+	Line[565.74mil 9.5062mm 644.26mil 9.5062mm 7.00mil 14.00mil "clearline"]
+	Line[590.00mil 480.00mil 550.00mil 520.00mil 7.00mil 14.00mil "clearline"]
+	Line[550.00mil 520.00mil 550.00mil 540.00mil 7.00mil 14.00mil "clearline"]
+	Line[870.00mil 60.00mil 920.00mil 110.00mil 7.00mil 14.00mil "clearline"]
+	Line[920.00mil 110.00mil 920.00mil 240.00mil 7.00mil 14.00mil ""]
+	Line[845.00mil 710.00mil 845.00mil 665.00mil 7.00mil 14.00mil ""]
+	Line[845.00mil 665.00mil 850.00mil 660.00mil 7.00mil 14.00mil ""]
+	Line[820.00mil 850.00mil 832.50mil 862.50mil 7.00mil 14.00mil ""]
+	Line[832.50mil 862.50mil 842.50mil 862.50mil 7.00mil 14.00mil ""]
+	Line[820.00mil 810.00mil 880.00mil 810.00mil 7.00mil 14.00mil ""]
+	Line[880.00mil 810.00mil 880.00mil 860.00mil 7.00mil 14.00mil ""]
+	Line[16.1562mm 514.26mil 674.26mil 514.26mil 7.00mil 14.00mil ""]
+	Line[674.26mil 514.26mil 680.00mil 520.00mil 7.00mil 14.00mil ""]
+	Polygon("clearpoly")
+	(
+		[20.00mil 220.00mil] [930.00mil 220.00mil] [930.00mil 980.00mil] [20.00mil 980.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[640.00mil 405.74mil] [920.00mil 405.74mil] [920.00mil 680.00mil] [640.00mil 680.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[930.00mil 220.00mil] [820.00mil 220.00mil] [820.00mil 680.00mil] [930.00mil 680.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[750.00mil 220.00mil] [840.00mil 220.00mil] [840.00mil 410.00mil] [750.00mil 410.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[790.00mil 630.00mil] [930.00mil 630.00mil] [930.00mil 930.00mil] [790.00mil 930.00mil] 
+	)
+)
+Layer(2 "bottom")
+(
+	Line[200.00mil 560.00mil 300.00mil 460.00mil 7.00mil 14.00mil "clearline"]
+	Line[300.00mil 460.00mil 870.00mil 460.00mil 7.00mil 14.00mil "clearline"]
+	Line[11.4494mm 815.00mil 575.00mil 815.00mil 7.00mil 14.00mil "clearline"]
+	Line[575.00mil 815.00mil 610.00mil 850.00mil 7.00mil 14.00mil "clearline"]
+	Line[6.3694mm 815.00mil 7.5124mm 860.00mil 7.00mil 14.00mil "clearline"]
+	Line[7.5124mm 860.00mil 560.00mil 860.00mil 7.00mil 14.00mil "clearline"]
+	Line[560.00mil 860.00mil 600.00mil 900.00mil 7.00mil 14.00mil "clearline"]
+	Line[540.00mil 200.00mil 680.00mil 200.00mil 7.00mil 14.00mil "clearline"]
+	Line[720.00mil 400.00mil 700.00mil 420.00mil 7.00mil 14.00mil "clearline"]
+	Line[700.00mil 420.00mil 300.00mil 420.00mil 7.00mil 14.00mil "clearline"]
+	Polygon("clearpoly")
+	(
+		[20.00mil 980.00mil] [930.00mil 980.00mil] [930.00mil 220.00mil] [20.00mil 220.00mil] 
+	)
+)
+Layer(3 "outline")
+(
+	Line[0.0000 0.0000 940.00mil 0.0000 7.00mil 14.00mil ""]
+	Line[940.00mil 0.0000 940.00mil 1000.00mil 7.00mil 14.00mil ""]
+	Line[940.00mil 1000.00mil 0.0000 1000.00mil 7.00mil 14.00mil ""]
+	Line[0.0000 1000.00mil 0.0000 0.0000 7.00mil 14.00mil ""]
+)
+Layer(4 "spare")
+(
+)
+Layer(5 "silk")
+(
+	Polygon("clearpoly")
+	(
+		[646.48mil 39.52mil] [688.90mil 39.52mil] [688.90mil 97.14mil] [16.3860mm 97.14mil] [16.3860mm 86.99mil] 
+		[17.1978mm 86.99mil] [17.1978mm 72.02mil] [16.4838mm 72.02mil] [16.4838mm 61.82mil] [17.1978mm 61.82mil] 
+		[17.1978mm 49.72mil] [646.48mil 49.72mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[16.2110mm 79.40mil] [16.2110mm 80.10mil] [638.01mil 82.27mil] [637.31mil 85.42mil] [635.95mil 88.62mil] 
+		[16.0980mm 91.71mil] [630.58mil 94.48mil] [15.9078mm 96.65mil] [620.65mil 98.17mil] [615.34mil 98.71mil] 
+		[613.60mil 98.71mil] [612.95mil 98.71mil] [611.16mil 98.60mil] [607.90mil 98.17mil] [604.16mil 97.30mil] 
+		[600.31mil 95.73mil] [596.73mil 93.39mil] [593.69mil 90.03mil] [591.63mil 85.58mil] [590.87mil 81.24mil] 
+		[590.87mil 79.83mil] [590.87mil 78.15mil] [15.0398mm 73.27mil] [595.43mil 68.87mil] [600.25mil 66.10mil] 
+		[604.48mil 64.64mil] [605.95mil 64.31mil] [620.00mil 60.90mil] [620.49mil 60.79mil] [621.95mil 60.30mil] 
+		[623.96mil 59.32mil] [625.48mil 57.59mil] [626.13mil 55.52mil] [626.13mil 54.87mil] [626.13mil 54.01mil] 
+		[625.16mil 51.56mil] [622.82mil 49.45mil] [619.57mil 48.31mil] [15.6708mm 47.98mil] [616.09mil 47.98mil] 
+		[614.52mil 47.98mil] [609.80mil 48.96mil] [15.4008mm 51.29mil] [604.76mil 54.17mil] [604.32mil 55.96mil] 
+		[604.27mil 56.61mil] [15.0548mm 56.61mil] [15.0548mm 55.09mil] [15.0810mm 50.70mil] [597.32mil 44.62mil] 
+		[604.21mil 39.90mil] [612.41mil 38.00mil] [615.17mil 38.00mil] [617.99mil 38.00mil] [626.51mil 39.85mil] 
+		[633.24mil 44.46mil] [16.1668mm 50.26mil] [637.36mil 54.33mil] [637.36mil 55.74mil] [637.36mil 57.64mil] 
+		[635.79mil 63.39mil] [631.67mil 68.11mil] [625.81mil 70.88mil] [15.7660mm 72.23mil] [619.03mil 72.67mil] 
+		[612.84mil 74.13mil] [611.75mil 74.35mil] [608.61mil 75.16mil] [605.35mil 76.52mil] [15.3208mm 78.47mil] 
+		[602.42mil 80.59mil] [602.42mil 81.29mil] [602.42mil 82.22mil] [603.45mil 84.98mil] [606.28mil 2.2164mm] 
+		[610.18mil 88.40mil] [613.38mil 88.73mil] [614.47mil 88.73mil] [616.04mil 88.73mil] [620.76mil 87.70mil] 
+		[15.8610mm 85.26mil] [626.19mil 82.22mil] [626.62mil 80.10mil] [626.68mil 79.40mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[569.60mil 76.36mil] [569.60mil 66.43mil] [569.60mil 49.50mil] [560.05mil 49.50mil] [558.80mil 49.50mil] 
+		[555.22mil 49.94mil] [551.91mil 51.35mil] [13.9718mm 53.79mil] [549.47mil 56.50mil] [549.47mil 57.42mil] 
+		[549.47mil 58.02mil] [549.58mil 59.87mil] [550.56mil 62.85mil] [553.22mil 65.34mil] [14.1508mm 66.43mil] 
+		[558.42mil 66.43mil] [569.60mil 66.43mil] [569.60mil 76.36mil] [14.1178mm 76.36mil] [553.43mil 76.36mil] 
+		[546.38mil 74.19mil] [540.79mil 69.09mil] [538.08mil 63.01mil] [537.43mil 59.21mil] [537.43mil 57.97mil] 
+		[537.43mil 56.01mil] [538.62mil 50.32mil] [542.15mil 44.51mil] [547.79mil 40.77mil] [553.43mil 39.52mil] 
+		[555.33mil 39.52mil] [581.64mil 39.52mil] [581.64mil 97.14mil] [569.60mil 97.14mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[509.54mil 69.47mil] [531.95mil 69.47mil] [531.95mil 79.88mil] [509.54mil 79.88mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[504.77mil 69.41mil] [504.77mil 72.61mil] [503.52mil 82.38mil] [12.6970mm 91.55mil] [493.75mil 96.92mil] 
+		[487.19mil 98.71mil] [485.02mil 98.71mil] [482.79mil 98.71mil] [476.23mil 96.92mil] [470.10mil 91.55mil] 
+		[466.46mil 82.38mil] [465.27mil 72.61mil] [465.27mil 69.41mil] [465.27mil 66.16mil] [466.46mil 56.39mil] 
+		[470.10mil 47.28mil] [476.23mil 41.91mil] [482.79mil 40.17mil] [485.02mil 40.17mil] [485.02mil 49.18mil] 
+		[483.99mil 49.18mil] [481.00mil 50.26mil] [478.45mil 53.73mil] [477.15mil 60.03mil] [476.83mil 67.03mil] 
+		[476.83mil 69.41mil] [476.83mil 71.75mil] [477.15mil 78.75mil] [478.45mil 85.04mil] [481.00mil 88.57mil] 
+		[483.99mil 89.70mil] [485.02mil 89.70mil] [486.00mil 89.70mil] [488.98mil 88.57mil] [491.47mil 85.04mil] 
+		[492.83mil 78.75mil] [493.21mil 71.75mil] [493.21mil 69.41mil] [493.21mil 67.03mil] [492.83mil 60.03mil] 
+		[491.47mil 53.73mil] [488.98mil 50.26mil] [486.00mil 49.18mil] [485.02mil 49.18mil] [485.02mil 40.17mil] 
+		[487.19mil 40.17mil] [493.75mil 41.91mil] [12.6970mm 47.28mil] [503.52mil 56.39mil] [504.77mil 66.16mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[11.6098mm 57.91mil] [443.52mil 57.91mil] [443.52mil 97.14mil] [432.28mil 97.14mil] [432.28mil 40.17mil] 
+		[441.51mil 40.17mil] [441.51mil 40.98mil] [442.27mil 43.48mil] [11.2900mm 46.68mil] [11.3990mm 49.07mil] 
+		[11.5270mm 50.04mil] [455.50mil 50.04mil] [11.6098mm 50.04mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[688.90mil 197.51mil] [663.89mil 197.51mil] [662.27mil 197.51mil] [657.38mil 196.69mil] [16.5638mm 194.52mil] 
+		[647.94mil 191.16mil] [644.80mil 187.03mil] [16.3200mm 4.6294mm] [641.00mil 177.22mil] [640.18mil 172.17mil] 
+		[639.97mil 168.53mil] [639.97mil 167.34mil] [639.97mil 4.2230mm] [640.13mil 163.00mil] [640.89mil 158.39mil] 
+		[642.25mil 153.83mil] [644.36mil 149.49mil] [647.45mil 145.64mil] [651.52mil 142.60mil] [656.84mil 140.59mil] 
+		[661.78mil 139.89mil] [663.46mil 139.89mil] [664.43mil 149.82mil] [661.23mil 150.25mil] [656.95mil 152.58mil] 
+		[653.58mil 158.12mil] [652.28mil 165.66mil] [652.28mil 168.21mil] [652.28mil 169.95mil] [652.93mil 175.21mil] 
+		[655.16mil 181.39mil] [659.17mil 185.79mil] [16.8600mm 187.52mil] [665.36mil 187.52mil] [17.1978mm 187.52mil] 
+		[17.1978mm 149.82mil] [665.52mil 149.82mil] [664.43mil 149.82mil] [663.46mil 139.89mil] [688.90mil 139.89mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[606.60mil 184.97mil] [606.82mil 185.73mil] [15.4780mm 188.45mil] [612.73mil 189.64mil] [613.87mil 189.64mil] 
+		[615.17mil 189.64mil] [619.19mil 188.45mil] [15.8018mm 185.62mil] [623.47mil 182.15mil] [623.80mil 179.93mil] 
+		[623.91mil 179.22mil] [623.58mil 171.90mil] [623.42mil 170.49mil] [620.92mil 165.28mil] [616.31mil 162.89mil] 
+		[614.79mil 162.89mil] [614.09mil 162.89mil] [15.5440mm 163.33mil] [609.31mil 164.79mil] [607.25mil 167.56mil] 
+		[15.3980mm 4.3373mm] [606.17mil 171.90mil] [623.58mil 171.90mil] [623.91mil 179.22mil] [594.61mil 179.22mil] 
+		[594.61mil 177.22mil] [594.61mil 174.23mil] [596.51mil 165.28mil] [15.2768mm 158.12mil] [607.90mil 154.59mil] 
+		[612.95mil 153.67mil] [614.63mil 153.67mil] [616.15mil 153.67mil] [620.87mil 3.9210mm] [625.70mil 156.27mil] 
+		[15.9850mm 159.09mil] [16.0498mm 162.51mil] [633.57mil 166.15mil] [634.54mil 169.67mil] [634.97mil 172.82mil] 
+		[635.14mil 174.61mil] [635.14mil 4.4516mm] [635.14mil 178.03mil] [633.46mil 186.33mil] [629.01mil 193.55mil] 
+		[622.23mil 197.45mil] [615.93mil 198.65mil] [613.87mil 198.65mil] [612.46mil 198.65mil] [15.4490mm 197.94mil] 
+		[602.80mil 195.66mil] [15.1940mm 191.43mil] [595.53mil 186.66mil] [15.1140mm 184.97mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[576.16mil 139.89mil] [587.39mil 139.89mil] [587.39mil 197.51mil] [576.38mil 197.51mil] [576.38mil 4.8801mm] 
+		[14.6360mm 4.8801mm] [14.6180mm 193.33mil] [570.74mil 197.18mil] [565.53mil 198.65mil] [563.85mil 198.65mil] 
+		[561.79mil 198.65mil] [14.1138mm 196.69mil] [13.9730mm 191.54mil] [546.87mil 184.21mil] [545.89mil 177.81mil] 
+		[545.89mil 175.70mil] [545.89mil 173.25mil] [547.30mil 165.98mil] [551.21mil 159.09mil] [14.1440mm 155.03mil] 
+		[561.90mil 153.67mil] [563.63mil 153.67mil] [564.77mil 153.67mil] [568.35mil 154.32mil] [571.82mil 155.95mil] 
+		[574.32mil 158.12mil] [575.62mil 159.75mil] [576.00mil 160.34mil] [571.72mil 164.52mil] [568.13mil 163.38mil] 
+		[567.00mil 163.38mil] [14.3728mm 163.38mil] [14.2860mm 164.47mil] [559.51mil 167.40mil] [557.88mil 171.57mil] 
+		[557.45mil 175.21mil] [557.45mil 176.46mil] [557.45mil 177.49mil] [557.83mil 4.5880mm] [559.35mil 184.81mil] 
+		[562.17mil 188.07mil] [565.53mil 189.42mil] [566.67mil 189.42mil] [567.81mil 189.42mil] [571.23mil 188.34mil] 
+		[574.32mil 185.62mil] [576.06mil 181.66mil] [576.65mil 178.25mil] [576.65mil 177.11mil] [576.65mil 175.80mil] 
+		[14.6360mm 172.06mil] [574.70mil 167.67mil] [571.72mil 164.52mil] [576.00mil 160.34mil] [576.16mil 160.34mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[501.02mil 154.81mil] [512.25mil 154.81mil] [512.25mil 179.44mil] [512.25mil 180.58mil] [13.0320mm 184.16mil] 
+		[515.18mil 187.14mil] [518.00mil 188.66mil] [520.18mil 189.15mil] [520.93mil 189.15mil] [521.59mil 189.15mil] 
+		[523.54mil 188.82mil] [525.87mil 4.7658mm] [13.3998mm 4.7051mm] [528.26mil 4.6294mm] [528.26mil 181.28mil] 
+		[528.26mil 154.81mil] [13.7030mm 154.81mil] [13.7030mm 182.91mil] [13.7030mm 184.65mil] [538.35mil 189.97mil] 
+		[535.37mil 194.85mil] [13.4810mm 197.67mil] [526.36mil 198.65mil] [524.95mil 198.65mil] [523.00mil 198.65mil] 
+		[517.19mil 196.75mil] [512.58mil 192.62mil] [13.0030mm 191.48mil] [12.9990mm 191.48mil] [12.9990mm 197.51mil] 
+		[501.02mil 197.51mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[462.07mil 154.81mil] [462.07mil 161.16mil] [462.23mil 161.16mil] [462.50mil 160.51mil] [463.59mil 158.77mil] 
+		[465.98mil 156.33mil] [469.61mil 154.43mil] [473.46mil 153.67mil] [474.77mil 153.67mil] [12.1018mm 153.67mil] 
+		[12.2298mm 155.03mil] [487.13mil 159.09mil] [491.04mil 165.98mil] [12.5098mm 173.25mil] [12.5098mm 175.70mil] 
+		[12.5098mm 178.08mil] [491.04mil 185.41mil] [487.13mil 192.30mil] [481.28mil 4.9878mm] [475.90mil 197.72mil] 
+		[474.11mil 197.72mil] [472.22mil 197.72mil] [466.57mil 195.72mil] [11.7640mm 4.8801mm] [462.72mil 191.32mil] 
+		[467.33mil 187.14mil] [11.9598mm 188.28mil] [472.05mil 188.28mil] [473.08mil 188.28mil] [476.23mil 187.14mil] 
+		[478.94mil 184.38mil] [480.46mil 180.53mil] [480.95mil 177.43mil] [480.95mil 176.40mil] [480.95mil 174.83mil] 
+		[480.14mil 170.11mil] [12.1430mm 166.15mil] [475.20mil 163.98mil] [472.87mil 163.38mil] [472.11mil 163.38mil] 
+		[471.02mil 163.38mil] [467.93mil 164.36mil] [464.94mil 167.02mil] [463.10mil 171.03mil] [462.50mil 174.67mil] 
+		[462.50mil 175.91mil] [462.50mil 177.00mil] [462.88mil 180.31mil] [464.40mil 184.27mil] [467.33mil 187.14mil] 
+		[462.72mil 191.32mil] [11.7490mm 191.48mil] [11.7490mm 196.64mil] [11.7490mm 198.48mil] [464.73mil 204.07mil] 
+		[469.77mil 206.40mil] [471.46mil 206.40mil] [472.43mil 206.40mil] [475.36mil 206.02mil] [477.64mil 205.05mil] 
+		[12.1610mm 203.64mil] [479.21mil 202.44mil] [479.32mil 202.06mil] [491.53mil 202.06mil] [491.42mil 203.53mil] 
+		[489.63mil 5.2799mm] [485.34mil 211.88mil] [479.48mil 214.16mil] [474.55mil 214.92mil] [472.92mil 214.92mil] 
+		[471.13mil 214.92mil] [465.92mil 214.38mil] [11.7008mm 212.86mil] [11.6030mm 5.3500mm] [454.20mil 5.2799mm] 
+		[452.57mil 204.72mil] [451.71mil 201.41mil] [451.38mil 198.21mil] [11.4638mm 195.99mil] [11.4638mm 195.28mil] 
+		[11.4638mm 154.81mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[406.24mil 176.73mil] [406.24mil 4.2352mm] [406.24mil 149.82mil] [396.69mil 149.82mil] [395.45mil 149.82mil] 
+		[9.9535mm 150.25mil] [388.56mil 151.66mil] [386.66mil 154.16mil] [386.06mil 3.9845mm] [386.06mil 157.79mil] 
+		[386.06mil 158.39mil] [386.17mil 160.23mil] [387.15mil 163.22mil] [389.86mil 165.66mil] [393.76mil 4.2352mm] 
+		[395.07mil 4.2352mm] [406.24mil 4.2352mm] [406.24mil 176.73mil] [392.41mil 176.73mil] [390.02mil 176.73mil] 
+		[382.97mil 174.56mil] [377.43mil 169.46mil] [374.72mil 163.38mil] [374.07mil 159.58mil] [374.07mil 158.33mil] 
+		[374.07mil 156.38mil] [9.5316mm 3.8260mm] [378.79mil 144.83mil] [384.43mil 141.14mil] [390.02mil 139.89mil] 
+		[391.92mil 139.89mil] [418.29mil 139.89mil] [418.29mil 197.51mil] [406.24mil 197.51mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[365.61mil 197.51mil] [354.38mil 197.51mil] [354.38mil 4.4516mm] [354.38mil 174.34mil] [353.94mil 4.3594mm] 
+		[352.42mil 4.2766mm] [349.28mil 165.98mil] [345.32mil 165.06mil] [344.01mil 165.06mil] [343.20mil 165.06mil] 
+		[341.03mil 165.17mil] [340.81mil 165.22mil] [340.81mil 153.83mil] [340.98mil 153.78mil] [342.44mil 153.67mil] 
+		[342.98mil 153.67mil] [344.07mil 153.67mil] [347.32mil 3.9210mm] [350.52mil 156.27mil] [352.80mil 158.99mil] 
+		[354.27mil 4.0988mm] [354.70mil 162.19mil] [9.0137mm 162.19mil] [9.0137mm 154.81mil] [365.61mil 154.81mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[294.75mil 4.4737mm] [294.75mil 173.58mil] [296.54mil 166.09mil] [301.32mil 159.09mil] [7.8298mm 154.97mil] 
+		[314.45mil 153.67mil] [316.56mil 153.67mil] [318.62mil 153.67mil] [324.81mil 154.97mil] [331.75mil 159.09mil] 
+		[336.58mil 166.09mil] [8.5946mm 173.58mil] [8.5946mm 4.4737mm] [8.5946mm 4.5372mm] [336.58mil 186.11mil] 
+		[331.75mil 193.17mil] [324.81mil 197.29mil] [318.62mil 198.65mil] [316.56mil 198.65mil] [316.56mil 189.15mil] 
+		[317.86mil 189.15mil] [321.82mil 187.85mil] [324.92mil 184.65mil] [326.38mil 180.47mil] [326.82mil 177.22mil] 
+		[326.82mil 4.4737mm] [326.82mil 175.04mil] [326.38mil 171.79mil] [324.92mil 167.61mil] [321.82mil 164.41mil] 
+		[317.86mil 163.16mil] [316.56mil 163.16mil] [315.21mil 163.16mil] [7.9055mm 164.41mil] [308.15mil 167.61mil] 
+		[306.69mil 171.79mil] [306.31mil 175.04mil] [306.31mil 4.4737mm] [306.31mil 177.22mil] [306.69mil 180.47mil] 
+		[308.15mil 184.65mil] [7.9055mm 187.85mil] [315.21mil 189.15mil] [316.56mil 189.15mil] [316.56mil 198.65mil] 
+		[314.45mil 198.65mil] [7.8298mm 197.29mil] [301.32mil 193.17mil] [296.54mil 186.11mil] [294.75mil 4.5372mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[275.93mil 139.89mil] [287.16mil 139.89mil] [287.16mil 197.51mil] [276.14mil 197.51mil] [276.14mil 4.8801mm] 
+		[275.98mil 4.8801mm] [275.28mil 193.33mil] [270.50mil 197.18mil] [265.29mil 198.65mil] [263.61mil 198.65mil] 
+		[261.55mil 198.65mil] [255.42mil 196.69mil] [249.88mil 191.54mil] [6.2644mm 184.21mil] [245.65mil 177.81mil] 
+		[245.65mil 175.70mil] [245.65mil 173.25mil] [247.06mil 165.98mil] [250.97mil 159.09mil] [256.61mil 155.03mil] 
+		[261.66mil 153.67mil] [263.39mil 153.67mil] [264.53mil 153.67mil] [268.11mil 154.32mil] [271.59mil 155.95mil] 
+		[274.08mil 158.12mil] [275.38mil 159.75mil] [7.0043mm 160.34mil] [271.48mil 164.52mil] [267.90mil 163.38mil] 
+		[6.7757mm 163.38mil] [265.62mil 163.38mil] [262.20mil 164.47mil] [259.27mil 167.40mil] [257.64mil 171.57mil] 
+		[257.21mil 175.21mil] [257.21mil 176.46mil] [257.21mil 177.49mil] [257.59mil 4.5880mm] [259.11mil 184.81mil] 
+		[261.93mil 188.07mil] [265.29mil 189.42mil] [266.43mil 189.42mil] [267.57mil 189.42mil] [270.99mil 188.34mil] 
+		[274.08mil 185.62mil] [275.82mil 181.66mil] [276.41mil 178.25mil] [276.41mil 177.11mil] [276.41mil 175.80mil] 
+		[275.98mil 172.06mil] [274.46mil 167.67mil] [271.48mil 164.52mil] [7.0043mm 160.34mil] [275.93mil 160.34mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[212.61mil 184.97mil] [212.83mil 185.73mil] [215.38mil 188.45mil] [5.5560mm 189.64mil] [219.88mil 189.64mil] 
+		[221.18mil 189.64mil] [225.20mil 188.45mil] [5.7945mm 185.62mil] [229.48mil 182.15mil] [229.81mil 179.93mil] 
+		[229.92mil 179.22mil] [229.59mil 171.90mil] [229.43mil 170.49mil] [226.93mil 165.28mil] [222.32mil 162.89mil] 
+		[220.80mil 162.89mil] [220.10mil 162.89mil] [217.98mil 163.33mil] [215.32mil 164.79mil] [5.4168mm 167.56mil] 
+		[212.23mil 4.3373mm] [212.18mil 171.90mil] [229.59mil 171.90mil] [229.92mil 179.22mil] [200.62mil 179.22mil] 
+		[200.62mil 177.22mil] [200.62mil 174.23mil] [202.52mil 165.28mil] [207.46mil 158.12mil] [213.91mil 154.59mil] 
+		[218.96mil 153.67mil] [220.64mil 153.67mil] [222.16mil 153.67mil] [226.88mil 3.9210mm] [231.71mil 156.27mil] 
+		[235.34mil 159.09mil] [237.89mil 162.51mil] [239.58mil 166.15mil] [240.55mil 169.67mil] [240.99mil 172.82mil] 
+		[241.15mil 174.61mil] [241.15mil 4.4516mm] [241.15mil 178.03mil] [239.47mil 186.33mil] [235.02mil 193.55mil] 
+		[5.7973mm 197.45mil] [221.94mil 198.65mil] [219.88mil 198.65mil] [218.47mil 198.65mil] [5.4417mm 197.94mil] 
+		[208.81mil 195.66mil] [204.20mil 191.43mil] [201.54mil 186.66mil] [201.06mil 184.97mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[70.96mil 933.94mil] [72.20mil 933.94mil] [76.00mil 935.95mil] [77.74mil 939.69mil] [77.74mil 941.00mil] 
+		[77.74mil 941.92mil] [76.76mil 944.74mil] [74.92mil 946.64mil] [74.54mil 946.86mil] [74.54mil 946.96mil] 
+		[84.25mil 946.96mil] [84.25mil 952.28mil] [56.96mil 952.28mil] [56.96mil 946.96mil] [68.57mil 946.96mil] 
+		[69.44mil 946.96mil] [72.04mil 945.72mil] [73.23mil 943.49mil] [73.23mil 942.79mil] [73.23mil 942.03mil] 
+		[71.77mil 939.75mil] [69.82mil 939.31mil] [69.22mil 939.31mil] [56.96mil 939.31mil] [56.96mil 934.00mil] 
+		[70.96mil 934.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[82.67mil 923.04mil] [82.67mil 928.35mil] [77.20mil 928.35mil] [77.20mil 931.07mil] [73.40mil 931.07mil] 
+		[73.40mil 928.35mil] [61.08mil 928.35mil] [60.27mil 928.35mil] [57.94mil 927.32mil] [56.74mil 924.01mil] 
+		[56.74mil 23.4424mm] [56.74mil 922.22mil] [56.74mil 921.57mil] [56.80mil 919.89mil] [56.85mil 919.73mil] 
+		[60.86mil 919.73mil] [60.86mil 920.00mil] [60.76mil 920.60mil] [60.76mil 920.81mil] [60.76mil 921.25mil] 
+		[61.08mil 922.71mil] [62.06mil 923.04mil] [62.38mil 923.04mil] [73.40mil 923.04mil] [73.40mil 919.73mil] 
+		[77.20mil 919.73mil] [77.20mil 923.04mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[82.67mil 910.34mil] [82.67mil 915.66mil] [77.20mil 915.66mil] [77.20mil 918.37mil] [73.40mil 918.37mil] 
+		[73.40mil 915.66mil] [61.08mil 915.66mil] [60.27mil 915.66mil] [57.94mil 914.63mil] [56.74mil 911.32mil] 
+		[56.74mil 910.23mil] [56.74mil 909.53mil] [56.74mil 908.88mil] [56.80mil 907.20mil] [56.85mil 907.03mil] 
+		[60.86mil 907.03mil] [60.86mil 23.0454mm] [60.76mil 907.90mil] [60.76mil 908.12mil] [60.76mil 908.55mil] 
+		[61.08mil 910.02mil] [62.06mil 910.34mil] [62.38mil 910.34mil] [73.40mil 910.34mil] [73.40mil 907.03mil] 
+		[77.20mil 907.03mil] [77.20mil 910.34mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[77.20mil 898.62mil] [77.20mil 903.72mil] [49.09mil 903.72mil] [49.09mil 898.41mil] [59.56mil 898.41mil] 
+		[59.56mil 898.30mil] [62.55mil 897.54mil] [65.59mil 898.62mil] [66.62mil 898.62mil] [67.70mil 898.62mil] 
+		[71.06mil 897.70mil] [73.13mil 894.99mil] [73.13mil 894.12mil] [73.13mil 893.20mil] [71.17mil 890.54mil] 
+		[67.97mil 889.56mil] [66.94mil 889.56mil] [65.91mil 889.56mil] [62.93mil 890.43mil] [60.81mil 893.04mil] 
+		[60.81mil 893.96mil] [60.81mil 894.83mil] [62.55mil 897.54mil] [59.56mil 898.30mil] [59.24mil 898.14mil] 
+		[57.56mil 896.56mil] [56.42mil 893.58mil] [56.42mil 892.60mil] [56.42mil 891.63mil] [57.28mil 888.70mil] 
+		[59.73mil 22.5054mm] [63.25mil 884.52mil] [66.29mil 884.08mil] [67.32mil 884.08mil] [68.46mil 884.08mil] 
+		[71.88mil 884.73mil] [75.13mil 886.58mil] [77.09mil 22.5880mm] [77.74mil 891.68mil] [77.74mil 892.49mil] 
+		[77.74mil 893.47mil] [76.54mil 896.45mil] [74.65mil 898.24mil] [74.27mil 898.52mil] [74.27mil 898.62mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[71.01mil 21.9390mm] [71.88mil 863.79mil] [74.43mil 864.77mil] [76.49mil 866.94mil] [77.47mil 869.76mil] 
+		[77.74mil 872.04mil] [77.74mil 872.80mil] [77.74mil 22.1940mm] [77.09mil 22.2684mm] [75.41mil 879.26mil] 
+		[73.23mil 880.56mil] [71.50mil 880.99mil] [70.96mil 880.99mil] [69.93mil 880.99mil] [66.89mil 878.98mil] 
+		[65.15mil 874.70mil] [64.17mil 22.1084mm] [62.93mil 868.46mil] [62.55mil 868.46mil] [62.17mil 868.46mil] 
+		[61.19mil 869.06mil] [60.43mil 22.1264mm] [60.43mil 871.82mil] [60.43mil 872.64mil] [61.24mil 875.24mil] 
+		[62.87mil 22.2560mm] [63.41mil 22.2560mm] [63.41mil 881.70mil] [62.55mil 881.64mil] [60.05mil 880.72mil] 
+		[57.88mil 22.3124mm] [56.74mil 875.35mil] [56.42mil 872.80mil] [56.42mil 871.99mil] [56.42mil 871.28mil] 
+		[56.63mil 869.27mil] [57.66mil 22.0050mm] [59.78mil 864.06mil] [62.44mil 863.14mil] [63.36mil 863.14mil] 
+		[64.34mil 863.14mil] [67.32mil 865.09mil] [69.11mil 869.44mil] [70.09mil 22.1940mm] [71.28mil 875.78mil] 
+		[71.72mil 875.78mil] [72.04mil 875.78mil] [73.02mil 875.19mil] [73.67mil 873.18mil] [73.67mil 872.53mil] 
+		[73.67mil 871.82mil] [72.80mil 869.71mil] [71.34mil 869.00mil] [71.01mil 868.95mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[62.49mil 852.51mil] [62.49mil 858.20mil] [56.96mil 858.20mil] [56.96mil 852.51mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[76.44mil 852.51mil] [76.44mil 858.20mil] [70.85mil 858.20mil] [70.85mil 852.51mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[84.95mil 837.15mil] [84.95mil 841.60mil] [56.25mil 850.23mil] [56.25mil 845.78mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[84.95mil 826.63mil] [84.95mil 21.1094mm] [56.25mil 839.70mil] [56.25mil 835.26mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[77.20mil 811.98mil] [74.16mil 811.98mil] [74.16mil 812.09mil] [71.34mil 813.34mil] [68.19mil 812.20mil] 
+		[67.16mil 812.20mil] [66.13mil 812.20mil] [63.20mil 20.6520mm] [61.35mil 815.78mil] [61.35mil 816.70mil] 
+		[61.35mil 20.7650mm] [63.14mil 20.8270mm] [65.96mil 820.93mil] [66.94mil 820.93mil] [68.14mil 820.93mil] 
+		[71.77mil 819.58mil] [73.13mil 817.46mil] [73.13mil 816.76mil] [73.13mil 815.89mil] [71.34mil 813.34mil] 
+		[74.16mil 812.09mil] [74.48mil 812.25mil] [76.44mil 813.88mil] [77.74mil 20.7510mm] [77.74mil 818.00mil] 
+		[77.74mil 818.76mil] [77.09mil 821.15mil] [75.13mil 20.9260mm] [71.88mil 20.9730mm] [68.46mil 826.41mil] 
+		[67.32mil 826.41mil] [66.13mil 826.41mil] [62.66mil 20.9730mm] [59.40mil 20.9260mm] [57.45mil 821.10mil] 
+		[56.85mil 818.55mil] [56.85mil 817.73mil] [56.85mil 20.7470mm] [57.77mil 814.10mil] [59.45mil 20.6380mm] 
+		[59.89mil 812.31mil] [59.78mil 812.20mil] [57.34mil 812.20mil] [56.42mil 812.20mil] [53.81mil 20.6560mm] 
+		[52.73mil 815.62mil] [52.73mil 816.43mil] [52.73mil 817.13mil] [53.32mil 819.36mil] [54.52mil 20.8310mm] 
+		[54.79mil 820.17mil] [54.79mil 20.9784mm] [53.70mil 825.87mil] [50.12mil 822.99mil] [48.71mil 818.60mil] 
+		[48.71mil 817.13mil] [48.71mil 20.7180mm] [49.63mil 811.27mil] [52.02mil 808.24mil] [55.06mil 807.04mil] 
+		[57.23mil 806.88mil] [57.99mil 806.88mil] [77.14mil 806.88mil] [77.14mil 811.98mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[77.20mil 802.05mil] [56.96mil 802.05mil] [56.96mil 796.74mil] [77.20mil 796.74mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[84.52mil 796.74mil] [84.52mil 802.05mil] [79.58mil 802.05mil] [79.58mil 796.74mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[82.67mil 785.72mil] [82.67mil 20.0924mm] [77.20mil 20.0924mm] [77.20mil 793.75mil] [73.40mil 793.75mil] 
+		[73.40mil 20.0924mm] [61.08mil 20.0924mm] [60.27mil 20.0924mm] [57.94mil 790.01mil] [56.74mil 786.64mil] 
+		[56.74mil 785.56mil] [56.74mil 784.91mil] [56.74mil 784.26mil] [56.80mil 782.58mil] [56.85mil 782.41mil] 
+		[60.86mil 782.41mil] [60.86mil 782.68mil] [60.76mil 783.28mil] [60.76mil 783.50mil] [60.76mil 783.93mil] 
+		[61.08mil 785.40mil] [62.06mil 19.9560mm] [62.38mil 19.9560mm] [73.40mil 19.9560mm] [73.40mil 782.36mil] 
+		[77.20mil 782.36mil] [77.20mil 19.9560mm] [82.67mil 19.9560mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[70.96mil 19.3220mm] [72.20mil 19.3220mm] [76.00mil 762.72mil] [77.74mil 766.46mil] [77.74mil 767.71mil] 
+		[77.74mil 768.63mil] [76.76mil 771.45mil] [74.92mil 773.35mil] [74.54mil 773.57mil] [74.54mil 773.68mil] 
+		[84.25mil 773.68mil] [84.25mil 778.99mil] [56.96mil 778.99mil] [56.96mil 773.68mil] [68.57mil 773.68mil] 
+		[69.44mil 773.68mil] [72.04mil 19.6210mm] [73.23mil 770.21mil] [73.23mil 769.50mil] [73.23mil 19.5260mm] 
+		[71.77mil 766.46mil] [69.82mil 766.03mil] [69.22mil 766.03mil] [56.96mil 766.03mil] [56.96mil 19.3220mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[77.20mil 737.49mil] [77.20mil 18.8674mm] [65.53mil 18.8674mm] [64.61mil 18.8674mm] [61.84mil 744.22mil] 
+		[60.92mil 746.23mil] [60.92mil 18.9720mm] [60.92mil 747.47mil] [61.57mil 749.26mil] [63.85mil 750.40mil] 
+		[64.66mil 750.40mil] [77.20mil 750.40mil] [77.20mil 755.72mil] [63.90mil 755.72mil] [62.44mil 755.72mil] 
+		[58.21mil 753.71mil] [56.42mil 750.02mil] [56.42mil 748.83mil] [56.42mil 747.91mil] [57.28mil 745.14mil] 
+		[59.29mil 742.92mil] [59.83mil 742.64mil] [59.83mil 742.54mil] [56.96mil 742.54mil] [56.96mil 18.7310mm] 
+		[77.20mil 18.7310mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[84.25mil 727.35mil] [84.25mil 732.66mil] [56.96mil 732.66mil] [56.96mil 727.45mil] [59.51mil 727.45mil] 
+		[59.51mil 727.35mil] [62.55mil 726.42mil] [65.59mil 18.4800mm] [66.62mil 18.4800mm] [67.70mil 18.4800mm] 
+		[71.06mil 726.64mil] [73.13mil 723.87mil] [73.13mil 723.01mil] [73.13mil 722.08mil] [71.17mil 719.48mil] 
+		[67.97mil 718.50mil] [66.94mil 718.50mil] [65.91mil 718.50mil] [62.93mil 18.2720mm] [60.81mil 721.98mil] 
+		[60.81mil 722.84mil] [60.81mil 723.71mil] [62.55mil 726.42mil] [59.51mil 727.35mil] [58.91mil 727.02mil] 
+		[57.07mil 724.74mil] [56.42mil 722.30mil] [56.42mil 721.49mil] [56.42mil 18.3010mm] [57.28mil 717.58mil] 
+		[59.73mil 18.1590mm] [63.25mil 713.40mil] [66.29mil 18.1094mm] [67.32mil 18.1094mm] [68.46mil 18.1094mm] 
+		[71.88mil 713.62mil] [75.13mil 715.46mil] [77.09mil 718.18mil] [77.74mil 720.56mil] [77.74mil 721.38mil] 
+		[77.74mil 722.30mil] [76.60mil 725.23mil] [74.86mil 727.02mil] [74.54mil 727.24mil] [74.54mil 727.35mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[56.96mil 703.58mil] [62.49mil 703.58mil] [62.49mil 18.0170mm] [56.96mil 18.0170mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[64.34mil 17.4424mm] [63.79mil 17.4424mm] [62.17mil 687.47mil] [60.81mil 689.58mil] [60.81mil 690.34mil] 
+		[60.81mil 690.89mil] [61.52mil 692.62mil] [63.25mil 693.87mil] [65.37mil 694.31mil] [66.83mil 17.6380mm] 
+		[67.38mil 17.6380mm] [68.30mil 17.6380mm] [71.23mil 693.55mil] [73.23mil 691.05mil] [73.23mil 690.24mil] 
+		[73.23mil 689.58mil] [72.15mil 687.58mil] [70.31mil 17.4424mm] [69.98mil 686.66mil] [69.98mil 681.28mil] 
+		[70.96mil 17.3060mm] [73.83mil 682.42mil] [76.22mil 684.70mil] [77.36mil 17.4630mm] [77.74mil 689.53mil] 
+		[77.74mil 690.24mil] [77.74mil 691.32mil] [76.87mil 694.58mil] [74.54mil 697.61mil] [70.96mil 699.30mil] 
+		[67.59mil 699.89mil] [66.51mil 699.89mil] [65.64mil 699.89mil] [63.09mil 699.46mil] [59.83mil 698.05mil] 
+		[57.34mil 695.17mil] [56.42mil 691.70mil] [56.42mil 690.56mil] [56.42mil 689.42mil] [57.34mil 686.00mil] 
+		[59.56mil 683.18mil] [62.17mil 17.3170mm] [63.79mil 17.3060mm] [64.34mil 17.3060mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[67.05mil 658.06mil] [68.19mil 658.06mil] [71.77mil 658.88mil] [75.13mil 661.21mil] [77.09mil 664.47mil] 
+		[77.74mil 667.40mil] [73.23mil 667.40mil] [71.12mil 16.8760mm] [68.03mil 663.54mil] [67.05mil 663.54mil] 
+		[66.02mil 663.54mil] [62.98mil 16.8760mm] [60.92mil 667.40mil] [60.92mil 668.43mil] [60.92mil 669.40mil] 
+		[62.98mil 672.33mil] [66.02mil 673.25mil] [67.05mil 673.25mil] [68.03mil 673.25mil] [71.12mil 672.39mil] 
+		[73.23mil 669.40mil] [73.23mil 668.43mil] [73.23mil 667.40mil] [77.74mil 667.40mil] [77.74mil 668.43mil] 
+		[77.74mil 669.35mil] [77.09mil 672.28mil] [75.13mil 17.1600mm] [71.77mil 677.87mil] [68.19mil 678.73mil] 
+		[67.05mil 678.73mil] [65.86mil 678.73mil] [62.28mil 677.87mil] [58.97mil 17.1600mm] [57.01mil 672.28mil] 
+		[56.42mil 669.35mil] [56.42mil 668.43mil] [56.42mil 667.40mil] [57.01mil 664.47mil] [58.97mil 661.21mil] 
+		[62.28mil 658.88mil] [65.86mil 658.06mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[70.96mil 625.40mil] [72.20mil 625.40mil] [76.00mil 627.41mil] [77.74mil 631.15mil] [77.74mil 632.46mil] 
+		[77.74mil 633.32mil] [76.44mil 636.09mil] [74.70mil 637.66mil] [74.48mil 637.83mil] [75.03mil 16.2090mm] 
+		[76.92mil 640.05mil] [77.74mil 642.60mil] [77.74mil 643.47mil] [77.74mil 16.3690mm] [76.44mil 647.38mil] 
+		[74.54mil 649.00mil] [74.21mil 649.22mil] [74.21mil 16.4930mm] [77.20mil 16.4930mm] [77.20mil 654.43mil] 
+		[56.96mil 654.43mil] [56.96mil 649.11mil] [69.27mil 649.11mil] [69.93mil 649.11mil] [72.04mil 648.35mil] 
+		[73.23mil 646.40mil] [73.23mil 645.80mil] [73.23mil 645.10mil] [71.82mil 642.98mil] [69.76mil 642.60mil] 
+		[69.11mil 642.60mil] [56.96mil 642.60mil] [56.96mil 637.28mil] [69.11mil 637.28mil] [69.82mil 637.28mil] 
+		[72.04mil 636.42mil] [73.23mil 634.30mil] [73.23mil 633.65mil] [73.23mil 16.0810mm] [72.37mil 16.0424mm] 
+		[69.98mil 630.77mil] [69.22mil 630.77mil] [56.96mil 630.77mil] [56.96mil 625.46mil] [70.96mil 625.46mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[84.95mil 611.19mil] [84.95mil 615.64mil] [56.25mil 624.26mil] [56.25mil 619.87mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[70.96mil 14.7594mm] [72.20mil 14.7594mm] [76.00mil 583.09mil] [77.74mil 586.83mil] [77.74mil 588.13mil] 
+		[77.74mil 589.00mil] [76.44mil 15.0310mm] [74.70mil 593.34mil] [74.48mil 15.0764mm] [75.03mil 593.88mil] 
+		[76.92mil 595.73mil] [77.74mil 598.28mil] [77.74mil 599.14mil] [77.74mil 15.2430mm] [76.44mil 603.05mil] 
+		[74.54mil 604.68mil] [74.21mil 604.90mil] [74.21mil 605.00mil] [77.20mil 605.00mil] [77.20mil 610.10mil] 
+		[56.96mil 610.10mil] [56.96mil 604.79mil] [69.27mil 604.79mil] [69.93mil 604.79mil] [72.04mil 15.3424mm] 
+		[73.23mil 602.07mil] [73.23mil 601.48mil] [73.23mil 600.77mil] [71.82mil 15.2060mm] [69.76mil 598.28mil] 
+		[69.11mil 598.28mil] [56.96mil 598.28mil] [56.96mil 592.96mil] [69.11mil 592.96mil] [69.82mil 592.96mil] 
+		[72.04mil 592.15mil] [73.23mil 590.03mil] [73.23mil 589.32mil] [73.23mil 14.9550mm] [72.37mil 587.32mil] 
+		[69.98mil 586.45mil] [69.22mil 586.45mil] [56.96mil 586.45mil] [56.96mil 581.13mil] [70.96mil 581.13mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[71.88mil 559.87mil] [72.58mil 559.87mil] [74.86mil 560.68mil] [76.65mil 562.79mil] [77.47mil 14.3624mm] 
+		[77.74mil 567.30mil] [77.74mil 567.95mil] [77.74mil 568.71mil] [77.47mil 570.99mil] [76.49mil 573.75mil] 
+		[74.32mil 575.87mil] [71.55mil 14.6520mm] [1.7940mm 576.95mil] [1.7940mm 571.86mil] [70.90mil 571.80mil] 
+		[72.48mil 571.10mil] [73.45mil 569.20mil] [73.45mil 568.60mil] [73.45mil 568.00mil] [73.07mil 566.27mil] 
+		[71.61mil 565.07mil] [71.12mil 565.07mil] [70.68mil 565.07mil] [69.49mil 566.70mil] [69.49mil 566.92mil] 
+		[68.79mil 571.75mil] [68.62mil 14.5430mm] [66.83mil 14.6284mm] [63.41mil 577.61mil] [62.33mil 577.61mil] 
+		[61.19mil 577.61mil] [57.77mil 575.65mil] [56.42mil 572.51mil] [56.42mil 571.47mil] [56.42mil 570.39mil] 
+		[57.39mil 567.30mil] [59.02mil 565.18mil] [59.35mil 564.91mil] [61.24mil 566.54mil] [60.21mil 568.98mil] 
+		[60.21mil 569.85mil] [60.21mil 570.23mil] [60.70mil 571.42mil] [62.17mil 572.29mil] [62.66mil 572.29mil] 
+		[63.20mil 572.29mil] [64.88mil 571.20mil] [65.59mil 569.20mil] [65.69mil 568.71mil] [65.75mil 14.4300mm] 
+		[66.67mil 565.18mil] [66.78mil 565.07mil] [64.23mil 565.07mil] [63.47mil 565.07mil] [61.24mil 566.54mil] 
+		[59.35mil 564.91mil] [59.02mil 14.3474mm] [57.18mil 564.48mil] [56.96mil 564.42mil] [56.96mil 558.67mil] 
+		[57.77mil 558.67mil] [57.83mil 558.83mil] [58.53mil 559.48mil] [60.32mil 559.87mil] [60.92mil 559.87mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[56.96mil 555.14mil] [56.96mil 549.83mil] [67.48mil 549.83mil] [68.24mil 549.83mil] [70.68mil 548.91mil] 
+		[72.31mil 545.87mil] [72.31mil 544.89mil] [72.31mil 544.51mil] [72.20mil 543.48mil] [72.20mil 543.37mil] 
+		[1.9718mm 543.37mil] [1.9718mm 543.59mil] [77.74mil 13.8224mm] [77.74mil 544.40mil] [77.74mil 545.27mil] 
+		[76.44mil 547.98mil] [74.16mil 549.67mil] [73.67mil 549.94mil] [73.67mil 13.9710mm] [77.20mil 13.9710mm] 
+		[77.20mil 555.14mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[63.36mil 534.85mil] [65.64mil 532.63mil] [56.96mil 527.80mil] [56.96mil 521.45mil] [69.33mil 13.4310mm] 
+		[77.20mil 521.62mil] [77.20mil 528.18mil] [69.49mil 534.85mil] [84.25mil 534.85mil] [84.25mil 540.17mil] 
+		[56.96mil 540.17mil] [56.96mil 534.85mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[56.96mil 13.1884mm] [56.96mil 13.0520mm] [67.48mil 13.0520mm] [68.24mil 13.0520mm] [70.68mil 512.94mil] 
+		[72.31mil 509.95mil] [72.31mil 508.97mil] [72.31mil 508.60mil] [72.20mil 507.57mil] [72.20mil 507.46mil] 
+		[1.9718mm 507.46mil] [1.9718mm 507.67mil] [77.74mil 508.27mil] [77.74mil 508.49mil] [77.74mil 509.36mil] 
+		[76.44mil 512.01mil] [74.16mil 513.75mil] [73.67mil 514.02mil] [73.67mil 514.13mil] [77.20mil 514.13mil] 
+		[77.20mil 13.1884mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[71.88mil 12.3960mm] [72.58mil 12.3960mm] [74.86mil 488.85mil] [76.65mil 12.4704mm] [77.47mil 493.57mil] 
+		[77.74mil 12.5834mm] [77.74mil 496.06mil] [77.74mil 496.82mil] [77.47mil 499.16mil] [76.49mil 501.92mil] 
+		[74.32mil 504.04mil] [71.55mil 505.02mil] [1.7940mm 12.8300mm] [1.7940mm 499.97mil] [70.90mil 12.6980mm] 
+		[72.48mil 499.26mil] [73.45mil 497.31mil] [73.45mil 12.6164mm] [73.45mil 12.6014mm] [73.07mil 494.43mil] 
+		[71.61mil 493.24mil] [71.12mil 493.24mil] [70.68mil 493.24mil] [69.49mil 494.87mil] [69.49mil 495.09mil] 
+		[68.79mil 12.6964mm] [68.62mil 500.68mil] [66.83mil 504.09mil] [63.41mil 505.77mil] [62.33mil 505.77mil] 
+		[61.19mil 505.77mil] [57.77mil 12.7970mm] [56.42mil 500.62mil] [56.42mil 499.59mil] [56.42mil 498.50mil] 
+		[57.39mil 12.5834mm] [59.02mil 493.35mil] [59.35mil 493.08mil] [61.24mil 494.71mil] [60.21mil 497.15mil] 
+		[60.21mil 497.96mil] [60.21mil 498.34mil] [60.70mil 499.59mil] [62.17mil 500.46mil] [62.66mil 500.46mil] 
+		[63.20mil 500.46mil] [64.88mil 12.6840mm] [65.59mil 497.31mil] [65.69mil 496.82mil] [65.75mil 496.28mil] 
+		[66.67mil 493.35mil] [66.78mil 493.24mil] [64.23mil 493.24mil] [63.47mil 493.24mil] [61.24mil 494.71mil] 
+		[59.35mil 493.08mil] [59.02mil 12.5230mm] [57.18mil 492.64mil] [56.96mil 492.59mil] [56.96mil 486.84mil] 
+		[57.77mil 486.84mil] [57.83mil 487.00mil] [58.53mil 487.65mil] [60.32mil 12.3960mm] [60.92mil 12.3960mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[77.20mil 470.13mil] [74.16mil 470.13mil] [74.16mil 11.9454mm] [71.34mil 471.49mil] [68.19mil 470.35mil] 
+		[67.16mil 470.35mil] [66.13mil 470.35mil] [63.20mil 11.9690mm] [61.35mil 473.93mil] [61.35mil 474.85mil] 
+		[61.35mil 475.66mil] [63.14mil 478.16mil] [65.96mil 479.08mil] [66.94mil 479.08mil] [68.14mil 479.08mil] 
+		[71.77mil 477.72mil] [73.13mil 475.61mil] [73.13mil 474.90mil] [73.13mil 474.04mil] [71.34mil 471.49mil] 
+		[74.16mil 11.9454mm] [74.48mil 470.40mil] [76.44mil 472.03mil] [77.74mil 12.0680mm] [77.74mil 476.21mil] 
+		[77.74mil 12.1150mm] [77.09mil 479.35mil] [75.13mil 482.07mil] [71.88mil 483.91mil] [68.46mil 484.62mil] 
+		[67.32mil 484.62mil] [66.13mil 484.62mil] [62.66mil 483.91mil] [59.40mil 482.07mil] [57.45mil 479.30mil] 
+		[56.85mil 476.69mil] [56.85mil 12.0874mm] [56.85mil 12.0640mm] [57.77mil 472.30mil] [59.45mil 470.73mil] 
+		[59.89mil 11.9510mm] [59.78mil 470.40mil] [57.34mil 470.40mil] [56.42mil 470.40mil] [53.81mil 471.43mil] 
+		[52.73mil 473.77mil] [52.73mil 474.58mil] [52.73mil 475.28mil] [53.32mil 477.51mil] [54.52mil 478.27mil] 
+		[54.79mil 478.32mil] [54.79mil 484.13mil] [53.70mil 484.02mil] [50.12mil 12.2210mm] [48.71mil 12.1094mm] 
+		[48.71mil 475.28mil] [48.71mil 12.0350mm] [49.63mil 469.48mil] [52.02mil 466.44mil] [55.06mil 465.25mil] 
+		[57.23mil 11.8130mm] [57.99mil 11.8130mm] [77.14mil 11.8130mm] [77.14mil 470.18mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[62.87mil 448.10mil] [62.49mil 448.21mil] [61.24mil 11.4150mm] [60.70mil 450.98mil] [60.70mil 451.52mil] 
+		[60.70mil 452.12mil] [61.24mil 454.02mil] [62.60mil 455.43mil] [64.17mil 11.5844mm] [65.26mil 456.24mil] 
+		[65.64mil 456.29mil] [69.11mil 456.13mil] [69.76mil 456.02mil] [72.20mil 11.5540mm] [73.34mil 452.71mil] 
+		[73.34mil 452.01mil] [73.34mil 451.36mil] [72.42mil 11.4150mm] [69.93mil 447.94mil] [69.11mil 447.89mil] 
+		[69.11mil 456.13mil] [65.64mil 456.29mil] [65.64mil 442.41mil] [66.56mil 442.41mil] [67.92mil 442.41mil] 
+		[72.15mil 443.33mil] [75.57mil 445.66mil] [77.20mil 448.70mil] [77.68mil 451.09mil] [77.68mil 451.90mil] 
+		[77.68mil 453.20mil] [76.38mil 457.11mil] [73.45mil 11.6850mm] [70.09mil 461.29mil] [68.14mil 461.61mil] 
+		[67.48mil 461.61mil] [66.13mil 461.61mil] [62.22mil 460.80mil] [58.80mil 458.68mil] [56.96mil 455.48mil] 
+		[56.42mil 452.50mil] [56.42mil 451.52mil] [56.42mil 450.16mil] [57.83mil 11.3350mm] [61.62mil 442.95mil] 
+		[62.87mil 442.62mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[71.01mil 422.22mil] [71.82mil 422.28mil] [74.43mil 423.20mil] [76.49mil 425.37mil] [77.47mil 428.25mil] 
+		[77.74mil 430.53mil] [77.74mil 431.28mil] [77.74mil 432.26mil] [77.09mil 435.19mil] [75.41mil 437.74mil] 
+		[73.23mil 439.04mil] [71.50mil 439.48mil] [70.96mil 439.48mil] [69.93mil 439.48mil] [66.89mil 437.47mil] 
+		[65.15mil 433.18mil] [64.17mil 428.84mil] [62.93mil 10.8430mm] [62.55mil 10.8430mm] [62.17mil 10.8430mm] 
+		[61.19mil 427.54mil] [60.43mil 429.60mil] [60.43mil 430.31mil] [60.43mil 10.9504mm] [61.24mil 433.73mil] 
+		[62.87mil 434.70mil] [63.41mil 434.70mil] [63.41mil 440.18mil] [62.55mil 440.13mil] [60.05mil 439.21mil] 
+		[57.88mil 11.0980mm] [56.74mil 433.83mil] [56.42mil 431.28mil] [56.42mil 430.47mil] [56.42mil 429.77mil] 
+		[56.63mil 427.70mil] [57.66mil 424.77mil] [59.78mil 422.50mil] [62.44mil 421.57mil] [63.36mil 421.57mil] 
+		[64.34mil 421.57mil] [67.32mil 423.53mil] [69.11mil 427.92mil] [70.09mil 432.26mil] [71.28mil 434.27mil] 
+		[71.72mil 434.27mil] [72.04mil 434.27mil] [73.02mil 433.67mil] [73.67mil 431.61mil] [73.67mil 10.9464mm] 
+		[73.67mil 10.9284mm] [72.80mil 10.8760mm] [71.34mil 427.49mil] [71.01mil 427.43mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[84.95mil 408.33mil] [84.95mil 412.78mil] [56.25mil 421.41mil] [56.25mil 416.96mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[84.25mil 401.99mil] [84.25mil 10.3454mm] [56.96mil 10.3454mm] [56.96mil 402.10mil] [59.51mil 402.10mil] 
+		[59.51mil 402.04mil] [62.55mil 10.1884mm] [65.59mil 402.20mil] [66.62mil 402.20mil] [67.70mil 402.20mil] 
+		[71.06mil 401.28mil] [73.13mil 398.52mil] [73.13mil 397.65mil] [73.13mil 396.72mil] [71.17mil 394.12mil] 
+		[67.97mil 393.14mil] [66.94mil 393.14mil] [65.91mil 393.14mil] [62.93mil 394.01mil] [60.81mil 396.62mil] 
+		[60.81mil 10.0960mm] [60.81mil 398.35mil] [62.55mil 10.1884mm] [59.51mil 402.04mil] [58.91mil 401.72mil] 
+		[57.07mil 399.44mil] [56.42mil 397.00mil] [56.42mil 10.0630mm] [56.42mil 395.21mil] [57.28mil 392.28mil] 
+		[59.73mil 389.62mil] [63.25mil 388.10mil] [66.29mil 387.66mil] [67.32mil 387.66mil] [68.46mil 387.66mil] 
+		[71.88mil 388.32mil] [75.13mil 390.16mil] [77.09mil 9.9789mm] [77.74mil 395.26mil] [77.74mil 396.07mil] 
+		[77.74mil 397.00mil] [76.60mil 399.93mil] [74.86mil 401.72mil] [74.54mil 10.2090mm] [74.54mil 401.99mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[56.96mil 378.82mil] [84.25mil 378.82mil] [84.25mil 384.14mil] [56.96mil 384.14mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[71.88mil 357.39mil] [72.58mil 357.39mil] [74.86mil 358.20mil] [76.65mil 360.32mil] [77.47mil 362.93mil] 
+		[77.74mil 364.77mil] [77.74mil 365.42mil] [77.74mil 366.18mil] [77.47mil 368.46mil] [76.49mil 371.23mil] 
+		[74.32mil 373.34mil] [71.55mil 9.5090mm] [1.7940mm 374.48mil] [1.7940mm 369.33mil] [70.90mil 369.27mil] 
+		[72.48mil 368.62mil] [73.45mil 366.67mil] [73.45mil 366.07mil] [73.45mil 365.47mil] [73.07mil 363.79mil] 
+		[71.61mil 362.60mil] [71.12mil 362.60mil] [70.68mil 362.60mil] [69.49mil 364.23mil] [69.49mil 364.44mil] 
+		[68.79mil 369.22mil] [68.62mil 370.03mil] [66.83mil 373.45mil] [63.41mil 9.5283mm] [62.33mil 9.5283mm] 
+		[61.19mil 9.5283mm] [57.77mil 373.18mil] [56.42mil 369.98mil] [56.42mil 368.95mil] [56.42mil 367.86mil] 
+		[57.39mil 364.77mil] [59.02mil 362.71mil] [59.35mil 362.44mil] [61.24mil 364.06mil] [60.21mil 366.51mil] 
+		[60.21mil 367.32mil] [60.21mil 367.70mil] [60.70mil 368.95mil] [62.17mil 369.82mil] [62.66mil 369.82mil] 
+		[63.20mil 369.82mil] [64.88mil 368.73mil] [65.59mil 366.67mil] [65.69mil 366.18mil] [65.75mil 365.58mil] 
+		[66.67mil 362.71mil] [66.78mil 362.60mil] [64.23mil 362.60mil] [63.47mil 362.60mil] [61.24mil 364.06mil] 
+		[59.35mil 362.44mil] [59.02mil 362.38mil] [57.18mil 362.00mil] [56.96mil 361.95mil] [56.96mil 356.20mil] 
+		[57.77mil 356.20mil] [57.83mil 356.36mil] [58.53mil 357.01mil] [60.32mil 357.39mil] [60.92mil 357.39mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[64.34mil 340.57mil] [63.79mil 340.57mil] [62.17mil 341.33mil] [60.81mil 343.45mil] [60.81mil 344.21mil] 
+		[60.81mil 344.75mil] [61.52mil 346.49mil] [63.25mil 347.73mil] [65.37mil 348.17mil] [66.83mil 348.28mil] 
+		[67.38mil 348.28mil] [68.30mil 348.28mil] [71.23mil 347.41mil] [73.23mil 344.91mil] [73.23mil 344.10mil] 
+		[73.23mil 343.45mil] [72.15mil 341.44mil] [70.31mil 8.6520mm] [69.98mil 340.57mil] [69.98mil 335.15mil] 
+		[70.96mil 335.20mil] [73.83mil 336.29mil] [76.22mil 338.57mil] [77.36mil 341.39mil] [77.74mil 343.39mil] 
+		[77.74mil 344.10mil] [77.74mil 345.18mil] [76.87mil 348.44mil] [74.54mil 351.48mil] [70.96mil 353.16mil] 
+		[67.59mil 8.9855mm] [66.51mil 8.9855mm] [65.64mil 8.9855mm] [63.09mil 353.32mil] [59.83mil 351.91mil] 
+		[57.34mil 349.04mil] [56.42mil 345.56mil] [56.42mil 344.43mil] [56.42mil 343.28mil] [57.34mil 8.6327mm] 
+		[59.56mil 337.05mil] [62.17mil 8.5250mm] [63.79mil 335.20mil] [64.34mil 335.20mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[63.36mil 326.68mil] [65.64mil 324.51mil] [56.96mil 319.68mil] [56.96mil 313.28mil] [69.33mil 320.61mil] 
+		[77.20mil 313.50mil] [77.20mil 320.01mil] [69.49mil 326.68mil] [84.25mil 326.68mil] [84.25mil 332.05mil] 
+		[56.96mil 332.05mil] [56.96mil 326.68mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[70.96mil 282.09mil] [72.20mil 282.09mil] [76.00mil 284.09mil] [77.74mil 287.84mil] [77.74mil 289.14mil] 
+		[77.74mil 290.01mil] [76.44mil 292.78mil] [74.70mil 294.35mil] [74.48mil 294.51mil] [75.03mil 294.84mil] 
+		[76.92mil 7.5372mm] [77.74mil 299.29mil] [77.74mil 300.15mil] [77.74mil 7.6487mm] [76.44mil 304.06mil] 
+		[74.54mil 305.69mil] [74.21mil 305.90mil] [74.21mil 305.96mil] [77.20mil 305.96mil] [77.20mil 311.06mil] 
+		[56.96mil 311.06mil] [56.96mil 7.7658mm] [69.27mil 7.7658mm] [69.93mil 7.7658mm] [72.04mil 304.98mil] 
+		[73.23mil 303.03mil] [73.23mil 302.43mil] [73.23mil 301.73mil] [71.82mil 299.61mil] [69.76mil 299.23mil] 
+		[69.11mil 299.23mil] [56.96mil 299.23mil] [56.96mil 293.91mil] [69.11mil 293.91mil] [69.82mil 293.91mil] 
+		[72.04mil 293.10mil] [73.23mil 290.98mil] [73.23mil 290.33mil] [73.23mil 289.79mil] [72.37mil 288.27mil] 
+		[69.98mil 287.40mil] [69.22mil 287.40mil] [56.96mil 287.40mil] [56.96mil 282.09mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[71.88mil 6.6261mm] [72.58mil 6.6261mm] [74.86mil 261.69mil] [76.65mil 263.80mil] [77.47mil 266.41mil] 
+		[77.74mil 268.25mil] [77.74mil 268.90mil] [77.74mil 269.66mil] [77.47mil 272.00mil] [76.49mil 6.9789mm] 
+		[74.32mil 276.88mil] [71.55mil 277.86mil] [1.7940mm 277.96mil] [1.7940mm 272.86mil] [70.90mil 272.81mil] 
+		[72.48mil 272.10mil] [73.45mil 270.15mil] [73.45mil 269.55mil] [73.45mil 268.96mil] [73.07mil 267.28mil] 
+		[71.61mil 266.08mil] [71.12mil 266.08mil] [70.68mil 266.08mil] [69.49mil 267.71mil] [69.49mil 267.93mil] 
+		[68.79mil 272.70mil] [68.62mil 273.52mil] [66.83mil 276.93mil] [63.41mil 278.62mil] [62.33mil 278.62mil] 
+		[61.19mil 278.62mil] [57.77mil 276.66mil] [56.42mil 273.52mil] [56.42mil 272.48mil] [56.42mil 271.40mil] 
+		[57.39mil 268.31mil] [59.02mil 266.19mil] [59.35mil 265.92mil] [61.24mil 267.55mil] [60.21mil 269.99mil] 
+		[60.21mil 270.80mil] [60.21mil 271.18mil] [60.70mil 272.43mil] [62.17mil 273.30mil] [62.66mil 273.30mil] 
+		[63.20mil 273.30mil] [64.88mil 272.21mil] [65.59mil 270.15mil] [65.69mil 269.66mil] [65.75mil 269.12mil] 
+		[66.67mil 266.19mil] [66.78mil 266.08mil] [64.23mil 266.08mil] [63.47mil 266.08mil] [61.24mil 267.55mil] 
+		[59.35mil 265.92mil] [59.02mil 6.7531mm] [57.18mil 265.49mil] [56.96mil 265.43mil] [56.96mil 259.68mil] 
+		[57.77mil 259.68mil] [57.83mil 259.84mil] [58.53mil 260.49mil] [60.32mil 6.6261mm] [60.92mil 6.6261mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[77.20mil 243.03mil] [74.16mil 243.03mil] [74.16mil 243.08mil] [71.34mil 244.33mil] [68.19mil 243.19mil] 
+		[67.16mil 243.19mil] [66.13mil 243.19mil] [63.20mil 244.06mil] [61.35mil 246.82mil] [61.35mil 6.2926mm] 
+		[61.35mil 248.56mil] [63.14mil 251.00mil] [65.96mil 251.92mil] [66.94mil 251.92mil] [68.14mil 251.92mil] 
+		[71.77mil 250.57mil] [73.13mil 248.45mil] [73.13mil 6.2926mm] [73.13mil 246.88mil] [71.34mil 244.33mil] 
+		[74.16mil 243.08mil] [74.48mil 6.1783mm] [76.44mil 6.2197mm] [77.74mil 247.96mil] [77.74mil 248.99mil] 
+		[77.74mil 249.75mil] [77.09mil 252.14mil] [75.13mil 254.85mil] [71.88mil 256.70mil] [68.46mil 257.40mil] 
+		[67.32mil 257.40mil] [66.13mil 257.40mil] [62.66mil 256.70mil] [59.40mil 254.85mil] [57.45mil 252.08mil] 
+		[56.85mil 249.53mil] [56.85mil 248.72mil] [56.85mil 247.80mil] [57.77mil 245.14mil] [59.45mil 243.51mil] 
+		[59.89mil 243.30mil] [59.78mil 6.1783mm] [57.34mil 6.1783mm] [56.42mil 6.1783mm] [53.81mil 244.27mil] 
+		[52.73mil 246.66mil] [52.73mil 247.47mil] [52.73mil 248.18mil] [53.32mil 250.35mil] [54.52mil 251.11mil] 
+		[54.79mil 251.16mil] [54.79mil 256.97mil] [53.70mil 256.91mil] [50.12mil 253.98mil] [48.71mil 249.59mil] 
+		[48.71mil 248.12mil] [48.71mil 246.66mil] [49.63mil 242.32mil] [52.02mil 239.28mil] [55.06mil 238.09mil] 
+		[57.23mil 237.93mil] [57.99mil 237.93mil] [77.14mil 237.93mil] [77.14mil 243.03mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[77.20mil 233.10mil] [56.96mil 233.10mil] [56.96mil 227.78mil] [77.20mil 227.78mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[84.52mil 227.78mil] [84.52mil 233.10mil] [79.58mil 233.10mil] [79.58mil 227.78mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[64.34mil 210.69mil] [63.79mil 210.69mil] [62.17mil 211.45mil] [60.81mil 213.57mil] [60.81mil 214.27mil] 
+		[60.81mil 214.81mil] [61.52mil 216.60mil] [63.25mil 217.85mil] [65.37mil 218.28mil] [66.83mil 218.39mil] 
+		[67.38mil 218.39mil] [68.30mil 218.39mil] [71.23mil 217.53mil] [73.23mil 214.98mil] [73.23mil 214.16mil] 
+		[73.23mil 213.51mil] [72.15mil 211.56mil] [70.31mil 210.69mil] [69.98mil 5.3500mm] [69.98mil 5.2136mm] 
+		[70.96mil 205.32mil] [73.83mil 206.40mil] [76.22mil 208.68mil] [77.36mil 211.45mil] [77.74mil 213.46mil] 
+		[77.74mil 214.16mil] [77.74mil 215.25mil] [76.87mil 218.56mil] [74.54mil 221.54mil] [70.96mil 223.28mil] 
+		[67.59mil 5.6863mm] [66.51mil 5.6863mm] [65.64mil 5.6863mm] [63.09mil 223.44mil] [59.83mil 222.03mil] 
+		[57.34mil 219.15mil] [56.42mil 215.68mil] [56.42mil 214.54mil] [56.42mil 213.40mil] [57.34mil 209.98mil] 
+		[59.56mil 207.16mil] [62.17mil 205.75mil] [63.79mil 205.32mil] [64.34mil 5.2136mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[65.15mil 192.35mil] [70.09mil 192.35mil] [70.09mil 202.99mil] [65.15mil 202.99mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[70.96mil 170.54mil] [72.20mil 170.54mil] [76.00mil 172.55mil] [77.74mil 176.29mil] [77.74mil 177.59mil] 
+		[77.74mil 178.52mil] [76.76mil 181.34mil] [74.92mil 4.6543mm] [74.54mil 183.45mil] [74.54mil 183.51mil] 
+		[84.25mil 183.51mil] [84.25mil 188.82mil] [56.96mil 188.82mil] [56.96mil 183.51mil] [68.57mil 183.51mil] 
+		[69.44mil 183.51mil] [72.04mil 182.32mil] [73.23mil 180.04mil] [73.23mil 179.33mil] [73.23mil 178.57mil] 
+		[71.77mil 176.29mil] [69.82mil 175.86mil] [69.22mil 175.86mil] [56.96mil 175.86mil] [56.96mil 170.54mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[71.88mil 149.22mil] [72.58mil 149.22mil] [74.86mil 150.03mil] [76.65mil 152.15mil] [77.47mil 154.81mil] 
+		[77.74mil 156.65mil] [77.74mil 157.30mil] [77.74mil 158.06mil] [77.47mil 160.34mil] [76.49mil 163.11mil] 
+		[74.32mil 165.22mil] [71.55mil 166.20mil] [1.7940mm 166.31mil] [1.7940mm 161.21mil] [70.90mil 161.16mil] 
+		[72.48mil 160.51mil] [73.45mil 158.55mil] [73.45mil 157.96mil] [73.45mil 157.36mil] [73.07mil 155.62mil] 
+		[71.61mil 154.43mil] [71.12mil 154.43mil] [70.68mil 154.43mil] [69.49mil 156.06mil] [69.49mil 156.27mil] 
+		[68.79mil 161.10mil] [68.62mil 161.92mil] [66.83mil 165.28mil] [63.41mil 166.96mil] [62.33mil 166.96mil] 
+		[61.19mil 166.96mil] [57.77mil 165.01mil] [56.42mil 161.86mil] [56.42mil 160.83mil] [56.42mil 159.75mil] 
+		[57.39mil 156.65mil] [59.02mil 154.54mil] [59.35mil 154.27mil] [61.24mil 155.89mil] [60.21mil 158.33mil] 
+		[60.21mil 159.20mil] [60.21mil 159.58mil] [60.70mil 160.78mil] [62.17mil 161.64mil] [62.66mil 161.64mil] 
+		[63.20mil 161.64mil] [64.88mil 160.56mil] [65.59mil 158.55mil] [65.69mil 158.06mil] [65.75mil 157.47mil] 
+		[66.67mil 154.54mil] [66.78mil 154.43mil] [64.23mil 154.43mil] [63.47mil 154.43mil] [61.24mil 155.89mil] 
+		[59.35mil 154.27mil] [59.02mil 154.21mil] [57.18mil 153.83mil] [56.96mil 153.78mil] [56.96mil 148.03mil] 
+		[57.77mil 148.03mil] [57.83mil 148.19mil] [58.53mil 148.84mil] [60.32mil 149.22mil] [60.92mil 149.22mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[56.96mil 144.50mil] [56.96mil 139.18mil] [67.48mil 139.18mil] [68.24mil 139.18mil] [70.68mil 3.5118mm] 
+		[72.31mil 135.22mil] [72.31mil 134.25mil] [72.31mil 3.4003mm] [72.20mil 132.84mil] [72.20mil 132.73mil] 
+		[1.9718mm 132.73mil] [1.9718mm 132.94mil] [77.74mil 133.54mil] [77.74mil 3.3975mm] [77.74mil 3.4196mm] 
+		[76.44mil 137.34mil] [74.16mil 139.02mil] [73.67mil 139.35mil] [73.67mil 139.40mil] [77.20mil 139.40mil] 
+		[77.20mil 144.50mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[84.25mil 111.95mil] [84.25mil 117.27mil] [74.54mil 117.27mil] [74.54mil 2.9812mm] [74.86mil 117.54mil] 
+		[76.60mil 119.27mil] [77.74mil 122.20mil] [77.74mil 123.18mil] [77.74mil 123.94mil] [77.09mil 126.32mil] 
+		[75.13mil 129.04mil] [71.88mil 130.88mil] [68.46mil 131.59mil] [67.32mil 131.59mil] [66.29mil 131.59mil] 
+		[63.25mil 131.10mil] [59.73mil 129.58mil] [57.28mil 126.92mil] [56.42mil 123.99mil] [56.42mil 123.07mil] 
+		[56.42mil 3.1054mm] [57.07mil 119.82mil] [58.91mil 117.54mil] [59.51mil 117.21mil] [62.55mil 118.08mil] 
+		[60.81mil 120.85mil] [60.81mil 121.77mil] [60.81mil 122.58mil] [62.93mil 125.19mil] [65.91mil 126.11mil] 
+		[66.94mil 126.11mil] [67.97mil 126.11mil] [71.17mil 125.08mil] [73.13mil 122.47mil] [73.13mil 121.61mil] 
+		[73.13mil 120.68mil] [71.06mil 117.92mil] [67.70mil 117.05mil] [66.62mil 117.05mil] [65.59mil 117.05mil] 
+		[62.55mil 118.08mil] [59.51mil 117.21mil] [59.51mil 117.16mil] [56.96mil 117.16mil] [56.96mil 111.95mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[77.20mil 81.02mil] [77.20mil 86.50mil] [62.66mil 89.65mil] [62.66mil 89.76mil] [77.20mil 92.80mil] 
+		[77.20mil 98.11mil] [62.66mil 100.99mil] [62.66mil 101.04mil] [77.20mil 104.19mil] [77.20mil 109.89mil] 
+		[56.96mil 104.19mil] [56.96mil 98.71mil] [71.72mil 95.56mil] [71.72mil 95.46mil] [56.96mil 92.31mil] 
+		[56.96mil 86.83mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[71.88mil 61.87mil] [72.58mil 61.87mil] [74.86mil 62.69mil] [76.65mil 64.80mil] [77.47mil 67.41mil] 
+		[77.74mil 69.25mil] [77.74mil 69.90mil] [77.74mil 70.66mil] [77.47mil 72.99mil] [76.49mil 75.76mil] 
+		[74.32mil 77.88mil] [71.55mil 78.85mil] [1.7940mm 78.96mil] [1.7940mm 73.81mil] [70.90mil 73.75mil] 
+		[72.48mil 73.10mil] [73.45mil 71.15mil] [73.45mil 70.55mil] [73.45mil 69.96mil] [73.07mil 68.27mil] 
+		[71.61mil 67.08mil] [71.12mil 67.08mil] [70.68mil 67.08mil] [69.49mil 68.71mil] [69.49mil 68.93mil] 
+		[68.79mil 73.70mil] [68.62mil 74.51mil] [66.83mil 77.93mil] [63.41mil 79.61mil] [62.33mil 79.61mil] 
+		[61.19mil 79.61mil] [57.77mil 77.66mil] [56.42mil 74.46mil] [56.42mil 73.43mil] [56.42mil 72.34mil] 
+		[57.39mil 69.25mil] [59.02mil 67.19mil] [59.35mil 66.92mil] [61.24mil 68.55mil] [60.21mil 70.99mil] 
+		[60.21mil 71.80mil] [60.21mil 72.18mil] [60.70mil 73.43mil] [62.17mil 74.30mil] [62.66mil 74.30mil] 
+		[63.20mil 74.30mil] [64.88mil 73.21mil] [65.59mil 71.15mil] [65.69mil 70.66mil] [65.75mil 70.12mil] 
+		[66.67mil 67.19mil] [66.78mil 67.08mil] [64.23mil 67.08mil] [63.47mil 67.08mil] [61.24mil 68.55mil] 
+		[59.35mil 66.92mil] [59.02mil 66.86mil] [57.18mil 66.48mil] [56.96mil 66.43mil] [56.96mil 60.68mil] 
+		[57.77mil 60.68mil] [57.83mil 60.84mil] [58.53mil 61.49mil] [60.32mil 61.87mil] [60.92mil 61.87mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[56.96mil 57.10mil] [56.96mil 51.78mil] [67.48mil 51.78mil] [68.24mil 51.78mil] [70.68mil 50.86mil] 
+		[72.31mil 47.88mil] [72.31mil 46.90mil] [72.31mil 46.52mil] [72.20mil 45.49mil] [72.20mil 45.38mil] 
+		[1.9718mm 45.38mil] [1.9718mm 45.60mil] [77.74mil 46.19mil] [77.74mil 46.41mil] [77.74mil 47.28mil] 
+		[76.44mil 49.94mil] [74.16mil 51.67mil] [73.67mil 51.94mil] [73.67mil 52.05mil] [77.20mil 52.05mil] 
+		[77.20mil 57.10mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[62.87mil 30.41mil] [62.49mil 30.51mil] [61.24mil 31.71mil] [60.70mil 33.28mil] [60.70mil 33.82mil] 
+		[60.70mil 34.42mil] [61.24mil 36.32mil] [62.60mil 37.73mil] [64.17mil 38.38mil] [65.26mil 38.54mil] 
+		[65.64mil 38.60mil] [69.11mil 38.43mil] [69.76mil 38.33mil] [72.20mil 37.19mil] [73.34mil 35.02mil] 
+		[73.34mil 34.31mil] [73.34mil 33.66mil] [72.42mil 31.71mil] [69.93mil 30.24mil] [69.11mil 30.19mil] 
+		[69.11mil 38.43mil] [65.64mil 38.60mil] [65.64mil 24.71mil] [66.56mil 24.71mil] [67.92mil 24.71mil] 
+		[72.15mil 25.63mil] [75.57mil 27.96mil] [77.20mil 31.00mil] [77.68mil 33.39mil] [77.68mil 34.20mil] 
+		[77.68mil 35.51mil] [76.38mil 39.41mil] [73.45mil 42.34mil] [70.09mil 43.59mil] [68.14mil 43.91mil] 
+		[67.48mil 43.91mil] [66.13mil 43.91mil] [62.22mil 43.10mil] [58.80mil 40.98mil] [56.96mil 37.78mil] 
+		[56.42mil 34.80mil] [56.42mil 33.82mil] [56.42mil 32.47mil] [57.83mil 28.56mil] [61.62mil 25.25mil] 
+		[62.87mil 24.93mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[116.12mil 752.94mil] [2.9812mm 752.94mil] [121.11mil 754.95mil] [122.85mil 758.69mil] [122.85mil 760.00mil] 
+		[122.85mil 760.92mil] [3.0955mm 19.3990mm] [120.08mil 765.64mil] [119.70mil 765.86mil] [119.70mil 765.96mil] 
+		[129.41mil 765.96mil] [129.41mil 771.28mil] [102.12mil 771.28mil] [102.12mil 765.96mil] [113.73mil 765.96mil] 
+		[114.60mil 765.96mil] [117.20mil 764.72mil] [118.40mil 762.49mil] [118.40mil 761.79mil] [118.40mil 761.03mil] 
+		[116.93mil 758.75mil] [114.98mil 758.31mil] [114.38mil 758.31mil] [102.12mil 758.31mil] [102.12mil 753.00mil] 
+		[116.12mil 753.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[127.84mil 742.04mil] [127.84mil 747.35mil] [122.36mil 747.35mil] [122.36mil 750.07mil] [118.56mil 750.07mil] 
+		[118.56mil 747.35mil] [2.6985mm 747.35mil] [105.43mil 747.35mil] [103.10mil 746.32mil] [101.90mil 743.01mil] 
+		[101.90mil 18.8450mm] [101.90mil 18.8270mm] [101.90mil 740.57mil] [101.96mil 739.16mil] [101.96mil 738.73mil] 
+		[105.97mil 738.73mil] [105.97mil 739.00mil] [105.92mil 739.60mil] [105.92mil 739.81mil] [105.92mil 740.25mil] 
+		[2.6985mm 741.71mil] [107.22mil 742.04mil] [107.55mil 742.04mil] [118.56mil 742.04mil] [118.56mil 738.73mil] 
+		[122.36mil 738.73mil] [122.36mil 742.04mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[127.84mil 729.34mil] [127.84mil 734.66mil] [122.36mil 734.66mil] [122.36mil 737.37mil] [118.56mil 737.37mil] 
+		[118.56mil 734.66mil] [2.6985mm 734.66mil] [105.43mil 734.66mil] [103.10mil 733.63mil] [101.90mil 730.32mil] 
+		[101.90mil 729.23mil] [101.90mil 728.53mil] [101.90mil 727.88mil] [101.96mil 726.47mil] [101.96mil 726.03mil] 
+		[105.97mil 726.03mil] [105.97mil 18.4480mm] [105.92mil 726.90mil] [105.92mil 727.12mil] [105.92mil 727.55mil] 
+		[2.6985mm 729.02mil] [107.22mil 729.34mil] [107.55mil 729.34mil] [118.56mil 729.34mil] [118.56mil 726.03mil] 
+		[122.36mil 726.03mil] [122.36mil 729.34mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[122.36mil 717.62mil] [122.36mil 722.72mil] [94.25mil 722.72mil] [94.25mil 717.41mil] [104.73mil 717.41mil] 
+		[104.73mil 717.30mil] [107.71mil 716.54mil] [110.75mil 717.62mil] [111.78mil 717.62mil] [112.86mil 717.62mil] 
+		[116.23mil 716.70mil] [118.29mil 713.99mil] [118.29mil 713.12mil] [118.29mil 712.20mil] [116.34mil 709.54mil] 
+		[2.8735mm 708.56mil] [112.10mil 708.56mil] [111.07mil 708.56mil] [108.09mil 709.43mil] [105.97mil 712.04mil] 
+		[105.97mil 712.96mil] [105.97mil 713.83mil] [107.71mil 716.54mil] [104.73mil 717.30mil] [104.40mil 717.14mil] 
+		[102.72mil 715.56mil] [101.58mil 712.58mil] [101.58mil 711.60mil] [101.58mil 18.0500mm] [102.45mil 707.70mil] 
+		[104.89mil 17.9080mm] [108.41mil 703.52mil] [111.45mil 703.08mil] [112.48mil 703.08mil] [113.57mil 703.08mil] 
+		[116.99mil 703.73mil] [3.0541mm 705.58mil] [122.19mil 708.29mil] [122.85mil 710.68mil] [122.85mil 711.49mil] 
+		[122.85mil 712.47mil] [121.71mil 715.45mil] [119.81mil 717.24mil] [119.43mil 18.2250mm] [119.43mil 717.62mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[116.17mil 682.74mil] [117.04mil 682.79mil] [119.59mil 683.77mil] [121.60mil 685.94mil] [122.57mil 688.76mil] 
+		[122.85mil 691.04mil] [122.85mil 691.80mil] [122.85mil 692.78mil] [122.19mil 17.6710mm] [120.57mil 698.26mil] 
+		[118.40mil 699.56mil] [116.66mil 699.99mil] [116.12mil 699.99mil] [115.09mil 699.99mil] [112.05mil 697.98mil] 
+		[110.31mil 17.6200mm] [109.34mil 17.5110mm] [108.09mil 687.46mil] [107.71mil 687.46mil] [107.33mil 687.46mil] 
+		[106.35mil 688.06mil] [105.59mil 17.5290mm] [105.59mil 690.82mil] [105.59mil 691.64mil] [106.41mil 694.24mil] 
+		[108.03mil 695.22mil] [108.58mil 695.22mil] [108.58mil 700.70mil] [107.71mil 700.64mil] [105.21mil 699.72mil] 
+		[103.04mil 17.7150mm] [101.90mil 694.35mil] [101.58mil 691.80mil] [101.58mil 690.99mil] [101.58mil 690.28mil] 
+		[101.80mil 688.27mil] [102.83mil 685.34mil] [104.94mil 683.06mil] [107.60mil 682.14mil] [108.52mil 682.14mil] 
+		[109.50mil 682.14mil] [112.48mil 684.09mil] [114.27mil 688.44mil] [115.25mil 692.78mil] [116.44mil 694.78mil] 
+		[116.88mil 694.78mil] [117.20mil 694.78mil] [118.18mil 694.19mil] [118.83mil 692.18mil] [118.83mil 691.53mil] 
+		[118.83mil 690.82mil] [117.96mil 688.71mil] [116.50mil 688.00mil] [116.17mil 687.95mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[107.66mil 671.51mil] [107.66mil 677.20mil] [102.12mil 677.20mil] [102.12mil 671.51mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[121.60mil 671.51mil] [121.60mil 677.20mil] [116.01mil 677.20mil] [116.01mil 671.51mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[130.12mil 656.15mil] [130.12mil 660.60mil] [101.42mil 669.23mil] [101.42mil 664.78mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[130.12mil 16.3990mm] [130.12mil 16.5120mm] [101.42mil 658.70mil] [101.42mil 654.26mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[122.36mil 630.98mil] [119.32mil 630.98mil] [119.32mil 631.09mil] [116.50mil 632.34mil] [113.35mil 631.20mil] 
+		[112.32mil 631.20mil] [111.29mil 631.20mil] [108.36mil 632.07mil] [106.52mil 634.78mil] [106.52mil 635.70mil] 
+		[106.52mil 636.52mil] [108.31mil 638.96mil] [2.8227mm 639.93mil] [112.10mil 639.93mil] [113.30mil 639.93mil] 
+		[116.93mil 638.58mil] [118.29mil 636.46mil] [118.29mil 635.76mil] [118.29mil 634.89mil] [116.50mil 632.34mil] 
+		[119.32mil 631.09mil] [119.65mil 631.25mil] [121.54mil 632.88mil] [122.85mil 635.97mil] [122.85mil 637.00mil] 
+		[122.85mil 637.76mil] [122.19mil 640.15mil] [3.0541mm 642.86mil] [116.99mil 644.71mil] [113.57mil 645.41mil] 
+		[112.48mil 645.41mil] [111.29mil 645.41mil] [107.82mil 644.71mil] [104.56mil 642.86mil] [102.61mil 640.10mil] 
+		[102.01mil 637.55mil] [102.01mil 636.73mil] [102.01mil 635.81mil] [102.93mil 633.10mil] [104.62mil 631.52mil] 
+		[105.05mil 631.31mil] [104.94mil 631.20mil] [102.56mil 631.20mil] [2.5814mm 631.20mil] [98.97mil 632.23mil] 
+		[97.89mil 634.62mil] [97.89mil 635.43mil] [97.89mil 636.13mil] [98.49mil 638.36mil] [99.68mil 639.12mil] 
+		[99.95mil 639.17mil] [99.95mil 16.3810mm] [98.87mil 644.87mil] [95.29mil 641.99mil] [93.87mil 637.60mil] 
+		[93.87mil 636.13mil] [93.87mil 634.67mil] [94.80mil 630.27mil] [97.18mil 627.24mil] [100.22mil 626.04mil] 
+		[102.45mil 625.88mil] [103.21mil 625.88mil] [122.36mil 625.88mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[122.36mil 621.05mil] [102.12mil 621.05mil] [102.12mil 615.74mil] [122.36mil 615.74mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[129.68mil 615.74mil] [129.68mil 621.05mil] [3.1684mm 621.05mil] [3.1684mm 615.74mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[127.84mil 604.72mil] [127.84mil 15.4950mm] [122.36mil 15.4950mm] [122.36mil 612.75mil] [118.56mil 612.75mil] 
+		[118.56mil 15.4950mm] [2.6985mm 15.4950mm] [105.43mil 15.4950mm] [103.10mil 609.01mil] [101.90mil 605.64mil] 
+		[101.90mil 604.56mil] [101.90mil 603.91mil] [101.90mil 603.26mil] [101.96mil 15.2870mm] [101.96mil 601.41mil] 
+		[105.97mil 601.41mil] [105.97mil 601.68mil] [105.92mil 602.28mil] [105.92mil 602.50mil] [105.92mil 602.93mil] 
+		[2.6985mm 604.40mil] [107.22mil 604.67mil] [107.55mil 604.67mil] [118.56mil 604.67mil] [118.56mil 601.36mil] 
+		[122.36mil 601.36mil] [122.36mil 604.67mil] [127.84mil 604.67mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[116.12mil 579.71mil] [2.9812mm 579.71mil] [121.11mil 581.72mil] [122.85mil 585.46mil] [122.85mil 586.71mil] 
+		[122.85mil 587.63mil] [3.0955mm 590.45mil] [120.08mil 592.35mil] [119.70mil 592.57mil] [119.70mil 592.68mil] 
+		[129.41mil 592.68mil] [129.41mil 597.99mil] [102.12mil 597.99mil] [102.12mil 592.68mil] [113.73mil 592.68mil] 
+		[114.60mil 592.68mil] [117.20mil 591.48mil] [118.40mil 589.21mil] [118.40mil 588.50mil] [118.40mil 587.74mil] 
+		[116.93mil 585.46mil] [114.98mil 585.03mil] [114.38mil 585.03mil] [102.12mil 585.03mil] [102.12mil 579.71mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[122.36mil 556.49mil] [122.36mil 14.2700mm] [110.69mil 14.2700mm] [109.77mil 14.2700mm] [107.00mil 563.22mil] 
+		[106.08mil 565.23mil] [106.08mil 565.93mil] [106.08mil 566.47mil] [106.73mil 568.26mil] [109.01mil 569.40mil] 
+		[109.77mil 569.40mil] [122.36mil 569.40mil] [122.36mil 574.72mil] [109.01mil 574.72mil] [107.55mil 574.72mil] 
+		[103.31mil 572.71mil] [101.58mil 569.02mil] [101.58mil 567.83mil] [101.58mil 566.91mil] [102.45mil 564.14mil] 
+		[104.45mil 561.92mil] [105.00mil 561.64mil] [105.00mil 561.54mil] [102.12mil 561.54mil] [102.12mil 556.44mil] 
+		[122.36mil 556.44mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[129.41mil 546.35mil] [129.41mil 551.66mil] [102.12mil 551.66mil] [102.12mil 546.45mil] [104.67mil 546.45mil] 
+		[104.67mil 546.35mil] [107.71mil 545.42mil] [110.75mil 546.56mil] [111.78mil 546.56mil] [112.86mil 546.56mil] 
+		[116.23mil 545.64mil] [118.29mil 542.87mil] [118.29mil 542.01mil] [118.29mil 541.08mil] [116.34mil 538.48mil] 
+		[2.8735mm 537.50mil] [112.10mil 537.50mil] [111.07mil 537.50mil] [108.09mil 538.37mil] [105.97mil 540.98mil] 
+		[105.97mil 541.84mil] [105.97mil 542.71mil] [107.71mil 545.42mil] [104.67mil 546.35mil] [104.07mil 546.02mil] 
+		[102.23mil 13.8110mm] [101.58mil 541.30mil] [101.58mil 540.49mil] [101.58mil 539.51mil] [102.45mil 536.58mil] 
+		[104.89mil 533.92mil] [108.41mil 532.40mil] [111.45mil 13.5120mm] [112.48mil 13.5120mm] [113.57mil 13.5120mm] 
+		[116.99mil 532.62mil] [3.0541mm 534.46mil] [122.19mil 537.18mil] [122.85mil 539.56mil] [122.85mil 540.38mil] 
+		[122.85mil 541.30mil] [3.0927mm 544.23mil] [120.02mil 546.02mil] [119.70mil 546.24mil] [119.70mil 546.35mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[102.12mil 522.58mil] [107.66mil 522.58mil] [107.66mil 528.33mil] [102.12mil 528.33mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[109.50mil 12.8450mm] [108.96mil 12.8450mm] [107.33mil 506.47mil] [105.97mil 508.58mil] [105.97mil 509.34mil] 
+		[105.97mil 509.89mil] [106.68mil 511.62mil] [108.41mil 512.87mil] [110.53mil 513.31mil] [112.00mil 513.41mil] 
+		[112.54mil 513.41mil] [113.46mil 513.41mil] [116.39mil 512.55mil] [118.40mil 510.05mil] [118.40mil 509.24mil] 
+		[118.40mil 508.58mil] [117.31mil 506.58mil] [115.47mil 12.8450mm] [115.14mil 505.66mil] [115.14mil 500.28mil] 
+		[116.12mil 500.34mil] [118.99mil 501.42mil] [121.33mil 503.70mil] [122.52mil 506.52mil] [122.85mil 508.53mil] 
+		[122.85mil 509.24mil] [122.85mil 510.32mil] [121.98mil 513.58mil] [119.70mil 516.61mil] [116.12mil 518.30mil] 
+		[112.75mil 518.89mil] [111.67mil 518.89mil] [110.80mil 518.89mil] [108.25mil 518.46mil] [105.00mil 517.05mil] 
+		[102.50mil 514.17mil] [101.58mil 510.70mil] [101.58mil 509.56mil] [101.58mil 508.42mil] [102.50mil 505.00mil] 
+		[104.73mil 502.18mil] [107.33mil 500.77mil] [108.96mil 500.34mil] [109.50mil 500.34mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[112.21mil 477.06mil] [113.35mil 477.06mil] [116.93mil 477.88mil] [3.0541mm 480.21mil] [122.19mil 483.47mil] 
+		[122.85mil 486.40mil] [118.40mil 486.40mil] [116.28mil 483.41mil] [113.19mil 482.54mil] [112.21mil 482.54mil] 
+		[111.18mil 482.54mil] [108.14mil 483.41mil] [106.08mil 486.40mil] [106.08mil 487.43mil] [106.08mil 488.40mil] 
+		[108.14mil 491.33mil] [111.18mil 492.25mil] [112.21mil 492.25mil] [113.19mil 492.25mil] [116.28mil 491.39mil] 
+		[118.40mil 488.40mil] [118.40mil 487.43mil] [118.40mil 486.40mil] [122.85mil 486.40mil] [122.85mil 487.43mil] 
+		[122.85mil 488.35mil] [122.19mil 491.28mil] [3.0541mm 494.59mil] [116.93mil 496.87mil] [113.35mil 497.73mil] 
+		[112.21mil 497.73mil] [111.02mil 497.73mil] [107.44mil 496.87mil] [2.6449mm 494.59mil] [102.18mil 491.28mil] 
+		[101.58mil 488.35mil] [101.58mil 487.43mil] [101.58mil 486.40mil] [102.18mil 483.47mil] [2.6449mm 480.21mil] 
+		[107.44mil 477.88mil] [111.02mil 477.06mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[116.12mil 444.40mil] [2.9812mm 444.40mil] [121.11mil 446.41mil] [122.85mil 450.15mil] [122.85mil 451.46mil] 
+		[122.85mil 452.32mil] [121.60mil 455.09mil] [119.86mil 456.66mil] [119.65mil 456.83mil] [120.19mil 457.15mil] 
+		[122.03mil 459.05mil] [122.85mil 461.60mil] [122.85mil 462.47mil] [122.85mil 463.45mil] [121.60mil 466.38mil] 
+		[119.70mil 468.00mil] [3.0320mm 468.22mil] [3.0320mm 468.33mil] [122.36mil 468.33mil] [122.36mil 473.43mil] 
+		[102.12mil 473.43mil] [102.12mil 11.8900mm] [114.44mil 11.8900mm] [115.09mil 11.8900mm] [117.20mil 467.35mil] 
+		[118.40mil 465.40mil] [118.40mil 464.80mil] [118.40mil 464.10mil] [116.99mil 461.98mil] [114.92mil 461.60mil] 
+		[114.27mil 461.60mil] [102.12mil 461.60mil] [102.12mil 456.28mil] [114.22mil 456.28mil] [114.92mil 456.28mil] 
+		[117.20mil 455.42mil] [118.40mil 453.30mil] [118.40mil 452.65mil] [118.40mil 452.11mil] [117.53mil 11.4450mm] 
+		[115.14mil 449.77mil] [114.38mil 449.77mil] [102.12mil 449.77mil] [102.12mil 444.46mil] [116.12mil 444.46mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[130.12mil 430.19mil] [130.12mil 434.64mil] [101.42mil 443.26mil] [101.42mil 438.87mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[116.12mil 10.1620mm] [2.9812mm 10.1620mm] [121.11mil 402.09mil] [122.85mil 405.83mil] [122.85mil 407.13mil] 
+		[122.85mil 408.00mil] [121.60mil 410.77mil] [119.86mil 412.34mil] [119.65mil 10.4790mm] [120.19mil 412.88mil] 
+		[122.03mil 414.73mil] [122.85mil 417.28mil] [122.85mil 418.14mil] [122.85mil 419.12mil] [121.60mil 422.05mil] 
+		[119.70mil 423.68mil] [3.0320mm 423.90mil] [3.0320mm 424.00mil] [122.36mil 424.00mil] [122.36mil 429.10mil] 
+		[102.12mil 429.10mil] [102.12mil 423.79mil] [114.44mil 423.79mil] [115.09mil 423.79mil] [117.20mil 10.7450mm] 
+		[118.40mil 421.07mil] [118.40mil 420.48mil] [118.40mil 419.77mil] [116.99mil 417.66mil] [114.92mil 417.28mil] 
+		[114.27mil 417.28mil] [102.12mil 417.28mil] [102.12mil 411.96mil] [114.22mil 411.96mil] [114.92mil 411.96mil] 
+		[117.20mil 411.15mil] [118.40mil 409.03mil] [118.40mil 408.32mil] [118.40mil 407.78mil] [117.53mil 406.32mil] 
+		[115.14mil 405.45mil] [114.38mil 405.45mil] [102.12mil 405.45mil] [102.12mil 400.13mil] [116.12mil 400.13mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[117.04mil 9.6233mm] [117.75mil 9.6233mm] [120.02mil 379.68mil] [3.0927mm 381.79mil] [3.1148mm 9.7650mm] 
+		[122.85mil 386.30mil] [122.85mil 386.95mil] [122.85mil 387.71mil] [122.57mil 389.99mil] [121.60mil 392.75mil] 
+		[119.48mil 394.87mil] [116.72mil 395.85mil] [115.79mil 395.95mil] [115.79mil 390.86mil] [116.06mil 390.80mil] 
+		[117.64mil 390.10mil] [118.61mil 388.20mil] [118.61mil 387.60mil] [118.61mil 387.00mil] [118.23mil 385.27mil] 
+		[116.77mil 384.07mil] [116.28mil 384.07mil] [115.85mil 384.07mil] [114.65mil 385.70mil] [114.65mil 385.92mil] 
+		[113.95mil 390.75mil] [113.79mil 391.56mil] [112.00mil 10.0310mm] [108.58mil 396.61mil] [107.49mil 396.61mil] 
+		[106.35mil 396.61mil] [102.93mil 394.65mil] [101.58mil 391.51mil] [101.58mil 390.47mil] [101.58mil 389.39mil] 
+		[102.56mil 386.30mil] [104.18mil 384.18mil] [104.51mil 383.91mil] [106.41mil 385.54mil] [105.38mil 387.98mil] 
+		[105.38mil 388.85mil] [105.38mil 389.23mil] [105.86mil 390.42mil] [107.33mil 391.29mil] [107.82mil 391.29mil] 
+		[108.36mil 391.29mil] [110.04mil 390.20mil] [110.75mil 388.20mil] [110.86mil 387.71mil] [110.91mil 387.11mil] 
+		[111.83mil 384.18mil] [111.94mil 384.07mil] [109.39mil 384.07mil] [2.7592mm 384.07mil] [106.41mil 385.54mil] 
+		[104.51mil 383.91mil] [104.18mil 9.7500mm] [102.34mil 383.48mil] [102.12mil 383.42mil] [102.12mil 377.67mil] 
+		[102.93mil 377.67mil] [102.99mil 377.83mil] [103.69mil 378.48mil] [105.48mil 9.6233mm] [106.08mil 9.6233mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[102.12mil 374.14mil] [102.12mil 368.83mil] [112.65mil 368.83mil] [113.41mil 368.83mil] [115.85mil 367.91mil] 
+		[117.47mil 9.2677mm] [117.47mil 363.89mil] [117.47mil 363.51mil] [117.42mil 9.2070mm] [117.42mil 9.2042mm] 
+		[122.79mil 9.2042mm] [122.79mil 362.43mil] [122.85mil 9.2235mm] [122.85mil 363.40mil] [122.85mil 364.27mil] 
+		[121.60mil 366.98mil] [119.32mil 368.67mil] [118.83mil 368.94mil] [118.83mil 369.04mil] [122.36mil 369.04mil] 
+		[122.36mil 374.14mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[108.52mil 353.85mil] [110.80mil 8.9314mm] [102.12mil 346.80mil] [102.12mil 340.45mil] [114.49mil 347.78mil] 
+		[122.36mil 340.62mil] [122.36mil 347.18mil] [114.65mil 353.85mil] [129.41mil 353.85mil] [129.41mil 359.17mil] 
+		[102.12mil 359.17mil] [102.12mil 353.85mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[102.12mil 8.5910mm] [102.12mil 332.86mil] [112.65mil 332.86mil] [113.41mil 332.86mil] [115.85mil 331.94mil] 
+		[117.47mil 328.95mil] [117.47mil 327.97mil] [117.47mil 327.60mil] [117.42mil 326.57mil] [117.42mil 326.46mil] 
+		[122.79mil 326.46mil] [122.79mil 326.51mil] [122.85mil 327.22mil] [122.85mil 327.49mil] [122.85mil 328.36mil] 
+		[121.60mil 331.01mil] [119.32mil 332.75mil] [118.83mil 333.02mil] [118.83mil 8.4615mm] [122.36mil 8.4615mm] 
+		[122.36mil 8.5910mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[117.04mil 307.03mil] [117.75mil 307.03mil] [120.02mil 307.85mil] [3.0927mm 7.8730mm] [3.1148mm 312.57mil] 
+		[122.85mil 7.9860mm] [122.85mil 315.06mil] [122.85mil 315.82mil] [122.57mil 318.16mil] [121.60mil 320.92mil] 
+		[119.48mil 323.04mil] [116.72mil 324.02mil] [115.79mil 324.12mil] [115.79mil 318.97mil] [116.06mil 318.92mil] 
+		[117.64mil 8.0838mm] [118.61mil 316.31mil] [118.61mil 8.0190mm] [118.61mil 8.0040mm] [118.23mil 313.43mil] 
+		[116.77mil 7.9309mm] [116.28mil 7.9309mm] [115.85mil 7.9309mm] [114.65mil 7.9723mm] [114.65mil 314.09mil] 
+		[113.95mil 8.0990mm] [113.79mil 319.68mil] [112.00mil 323.09mil] [108.58mil 324.77mil] [107.49mil 324.77mil] 
+		[106.35mil 324.77mil] [102.93mil 322.82mil] [101.58mil 319.62mil] [101.58mil 318.59mil] [101.58mil 317.50mil] 
+		[102.56mil 7.9860mm] [104.18mil 312.35mil] [104.51mil 312.08mil] [106.41mil 313.71mil] [105.38mil 316.15mil] 
+		[105.38mil 316.96mil] [105.38mil 317.34mil] [105.86mil 318.59mil] [107.33mil 319.46mil] [107.82mil 319.46mil] 
+		[108.36mil 319.46mil] [110.04mil 8.0866mm] [110.75mil 316.31mil] [110.86mil 315.82mil] [110.91mil 315.28mil] 
+		[111.83mil 312.35mil] [111.94mil 7.9309mm] [109.39mil 7.9309mm] [2.7592mm 7.9309mm] [106.41mil 313.71mil] 
+		[104.51mil 312.08mil] [104.18mil 312.03mil] [102.34mil 311.64mil] [102.12mil 311.59mil] [102.12mil 305.84mil] 
+		[102.93mil 305.84mil] [102.99mil 306.00mil] [103.69mil 306.65mil] [105.48mil 307.03mil] [106.08mil 307.03mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[122.36mil 7.3439mm] [119.32mil 7.3439mm] [119.32mil 7.3480mm] [116.50mil 290.49mil] [113.35mil 289.35mil] 
+		[112.32mil 289.35mil] [111.29mil 289.35mil] [108.36mil 290.22mil] [106.52mil 292.93mil] [106.52mil 293.85mil] 
+		[106.52mil 294.66mil] [108.31mil 297.16mil] [2.8227mm 298.08mil] [112.10mil 298.08mil] [113.30mil 298.08mil] 
+		[116.93mil 296.72mil] [118.29mil 294.61mil] [118.29mil 293.90mil] [118.29mil 293.04mil] [116.50mil 290.49mil] 
+		[119.32mil 7.3480mm] [119.65mil 289.40mil] [121.54mil 291.03mil] [122.85mil 294.12mil] [122.85mil 295.21mil] 
+		[122.85mil 295.97mil] [122.19mil 298.35mil] [3.0541mm 301.07mil] [116.99mil 302.91mil] [113.57mil 303.62mil] 
+		[112.48mil 303.62mil] [111.29mil 303.62mil] [107.82mil 302.91mil] [104.56mil 301.07mil] [102.61mil 298.30mil] 
+		[102.01mil 295.69mil] [102.01mil 7.4900mm] [102.01mil 293.96mil] [102.93mil 291.30mil] [104.62mil 289.73mil] 
+		[105.05mil 289.51mil] [104.94mil 289.40mil] [102.56mil 289.40mil] [2.5814mm 289.40mil] [98.97mil 290.43mil] 
+		[97.89mil 292.77mil] [97.89mil 293.58mil] [97.89mil 294.28mil] [98.49mil 296.51mil] [99.68mil 297.27mil] 
+		[99.95mil 297.32mil] [99.95mil 7.6995mm] [98.87mil 303.02mil] [95.29mil 300.14mil] [93.87mil 7.5120mm] 
+		[93.87mil 294.28mil] [93.87mil 292.82mil] [94.80mil 288.48mil] [97.18mil 285.44mil] [100.22mil 284.25mil] 
+		[102.45mil 284.08mil] [103.21mil 284.08mil] [122.36mil 284.08mil] [122.36mil 289.18mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[108.03mil 267.10mil] [107.66mil 267.21mil] [106.41mil 268.41mil] [105.86mil 269.98mil] [105.86mil 270.52mil] 
+		[105.86mil 271.12mil] [106.41mil 273.02mil] [2.7371mm 274.43mil] [109.34mil 6.9870mm] [110.42mil 6.9911mm] 
+		[110.80mil 275.29mil] [114.22mil 6.9883mm] [2.9177mm 275.02mil] [117.31mil 273.88mil] [118.51mil 271.71mil] 
+		[118.51mil 271.01mil] [118.51mil 270.36mil] [117.58mil 268.41mil] [115.03mil 266.94mil] [114.22mil 6.7790mm] 
+		[114.22mil 6.9883mm] [110.80mil 275.29mil] [110.80mil 261.41mil] [111.72mil 261.41mil] [113.08mil 261.41mil] 
+		[117.31mil 262.33mil] [120.73mil 264.66mil] [122.36mil 267.70mil] [122.85mil 270.09mil] [122.85mil 270.90mil] 
+		[122.85mil 272.20mil] [121.54mil 276.11mil] [118.61mil 279.04mil] [115.25mil 280.29mil] [113.30mil 280.61mil] 
+		[112.65mil 280.61mil] [111.29mil 280.61mil] [107.38mil 279.80mil] [103.97mil 277.68mil] [102.12mil 274.48mil] 
+		[101.58mil 271.50mil] [101.58mil 270.52mil] [101.58mil 269.16mil] [102.99mil 6.7376mm] [106.79mil 261.95mil] 
+		[108.03mil 261.62mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[116.17mil 6.1270mm] [116.99mil 241.28mil] [119.59mil 242.20mil] [121.60mil 6.2070mm] [122.57mil 247.25mil] 
+		[122.85mil 249.53mil] [122.85mil 250.28mil] [122.85mil 6.3820mm] [122.19mil 254.19mil] [120.57mil 6.5212mm] 
+		[118.40mil 258.04mil] [116.66mil 258.48mil] [116.12mil 258.48mil] [115.09mil 258.48mil] [112.05mil 256.47mil] 
+		[110.31mil 252.18mil] [109.34mil 247.84mil] [108.09mil 245.89mil] [107.71mil 245.89mil] [107.33mil 245.89mil] 
+		[106.35mil 246.54mil] [105.59mil 248.60mil] [105.59mil 249.31mil] [105.59mil 6.3530mm] [106.41mil 252.73mil] 
+		[108.03mil 253.70mil] [108.58mil 253.70mil] [108.58mil 259.18mil] [107.71mil 6.5819mm] [105.21mil 258.21mil] 
+		[103.04mil 255.93mil] [101.90mil 252.83mil] [101.58mil 250.28mil] [101.58mil 249.47mil] [101.58mil 248.77mil] 
+		[101.80mil 246.70mil] [102.83mil 243.77mil] [104.94mil 241.50mil] [107.60mil 240.57mil] [108.52mil 240.57mil] 
+		[109.50mil 240.57mil] [112.48mil 242.53mil] [114.27mil 246.92mil] [115.25mil 6.3820mm] [116.44mil 253.27mil] 
+		[116.88mil 253.27mil] [117.20mil 253.27mil] [118.18mil 252.67mil] [118.83mil 250.61mil] [118.83mil 6.3490mm] 
+		[118.83mil 6.3310mm] [117.96mil 247.19mil] [116.50mil 246.49mil] [116.17mil 246.43mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[130.12mil 227.33mil] [130.12mil 231.78mil] [101.42mil 240.41mil] [101.42mil 235.96mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[129.41mil 220.99mil] [129.41mil 5.7480mm] [102.12mil 5.7480mm] [102.12mil 221.10mil] [104.67mil 221.10mil] 
+		[104.67mil 221.04mil] [107.71mil 5.5910mm] [110.75mil 221.20mil] [111.78mil 221.20mil] [112.86mil 221.20mil] 
+		[116.23mil 220.28mil] [118.29mil 5.5250mm] [118.29mil 216.65mil] [118.29mil 215.72mil] [116.34mil 213.12mil] 
+		[2.8735mm 212.14mil] [112.10mil 212.14mil] [111.07mil 212.14mil] [108.09mil 213.01mil] [105.97mil 215.62mil] 
+		[105.97mil 216.48mil] [105.97mil 217.35mil] [107.71mil 5.5910mm] [104.67mil 221.04mil] [104.07mil 220.72mil] 
+		[102.23mil 218.44mil] [101.58mil 216.00mil] [101.58mil 215.18mil] [101.58mil 214.21mil] [102.45mil 211.28mil] 
+		[104.89mil 208.62mil] [108.41mil 207.10mil] [111.45mil 206.66mil] [112.48mil 206.66mil] [113.57mil 206.66mil] 
+		[116.99mil 207.32mil] [3.0541mm 209.16mil] [122.19mil 5.3815mm] [122.85mil 5.4422mm] [122.85mil 215.07mil] 
+		[122.85mil 216.00mil] [3.0927mm 218.93mil] [120.02mil 220.72mil] [119.70mil 220.93mil] [119.70mil 220.99mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[102.12mil 197.82mil] [129.41mil 197.82mil] [129.41mil 203.14mil] [102.12mil 203.14mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[117.04mil 176.39mil] [117.75mil 176.39mil] [120.02mil 177.20mil] [3.0927mm 179.32mil] [3.1148mm 181.93mil] 
+		[122.85mil 183.77mil] [122.85mil 184.42mil] [122.85mil 185.18mil] [122.57mil 187.46mil] [121.60mil 190.23mil] 
+		[119.48mil 192.34mil] [116.72mil 4.9116mm] [115.79mil 193.48mil] [115.79mil 188.33mil] [116.06mil 188.27mil] 
+		[117.64mil 187.62mil] [118.61mil 185.67mil] [118.61mil 185.07mil] [118.61mil 184.47mil] [118.23mil 182.79mil] 
+		[116.77mil 181.60mil] [116.28mil 181.60mil] [115.85mil 181.60mil] [114.65mil 183.23mil] [114.65mil 183.44mil] 
+		[113.95mil 188.22mil] [113.79mil 189.03mil] [112.00mil 192.45mil] [108.58mil 4.9309mm] [107.49mil 4.9309mm] 
+		[106.35mil 4.9309mm] [102.93mil 192.18mil] [101.58mil 188.98mil] [101.58mil 187.95mil] [101.58mil 186.86mil] 
+		[102.56mil 183.77mil] [104.18mil 181.71mil] [104.51mil 181.44mil] [106.41mil 183.06mil] [105.38mil 185.51mil] 
+		[105.38mil 186.32mil] [105.38mil 186.70mil] [105.86mil 187.95mil] [107.33mil 188.82mil] [107.82mil 188.82mil] 
+		[108.36mil 188.82mil] [110.04mil 187.73mil] [110.75mil 185.67mil] [110.86mil 185.18mil] [110.91mil 184.58mil] 
+		[111.83mil 181.71mil] [111.94mil 181.60mil] [109.39mil 181.60mil] [2.7592mm 181.60mil] [106.41mil 183.06mil] 
+		[104.51mil 181.44mil] [104.18mil 181.38mil] [102.34mil 181.00mil] [102.12mil 180.95mil] [102.12mil 175.20mil] 
+		[102.93mil 175.20mil] [102.99mil 175.36mil] [103.69mil 176.01mil] [105.48mil 176.39mil] [106.08mil 176.39mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[109.50mil 159.57mil] [108.96mil 159.57mil] [107.33mil 160.33mil] [105.97mil 162.45mil] [105.97mil 163.21mil] 
+		[105.97mil 163.75mil] [106.68mil 165.49mil] [108.41mil 166.73mil] [110.53mil 167.17mil] [112.00mil 167.28mil] 
+		[112.54mil 167.28mil] [113.46mil 167.28mil] [116.39mil 166.41mil] [118.40mil 163.91mil] [118.40mil 163.10mil] 
+		[118.40mil 162.45mil] [117.31mil 160.44mil] [115.47mil 4.0546mm] [115.14mil 159.57mil] [115.14mil 154.15mil] 
+		[116.12mil 154.20mil] [118.99mil 155.29mil] [121.33mil 157.57mil] [122.52mil 160.39mil] [122.85mil 162.39mil] 
+		[122.85mil 163.10mil] [122.85mil 164.18mil] [121.98mil 167.44mil] [119.70mil 170.48mil] [116.12mil 172.16mil] 
+		[112.75mil 4.3881mm] [111.67mil 4.3881mm] [110.80mil 4.3881mm] [108.25mil 172.32mil] [105.00mil 170.91mil] 
+		[102.50mil 168.04mil] [101.58mil 164.56mil] [101.58mil 163.43mil] [101.58mil 162.28mil] [102.50mil 4.0353mm] 
+		[104.73mil 156.05mil] [107.33mil 3.9276mm] [108.96mil 154.20mil] [109.50mil 154.20mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[108.52mil 145.68mil] [110.80mil 143.51mil] [102.12mil 138.68mil] [102.12mil 132.28mil] [114.49mil 139.61mil] 
+		[122.36mil 132.50mil] [122.36mil 139.01mil] [114.65mil 145.68mil] [129.41mil 145.68mil] [129.41mil 151.05mil] 
+		[102.12mil 151.05mil] [102.12mil 145.68mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[116.12mil 101.09mil] [2.9812mm 101.09mil] [121.11mil 103.09mil] [122.85mil 106.84mil] [122.85mil 108.14mil] 
+		[122.85mil 109.01mil] [121.60mil 111.78mil] [119.86mil 113.35mil] [119.65mil 113.51mil] [120.19mil 113.84mil] 
+		[122.03mil 2.9398mm] [122.85mil 118.29mil] [122.85mil 119.15mil] [122.85mil 3.0513mm] [121.60mil 123.06mil] 
+		[119.70mil 124.69mil] [3.0320mm 124.90mil] [3.0320mm 124.96mil] [122.36mil 124.96mil] [122.36mil 130.06mil] 
+		[102.12mil 130.06mil] [102.12mil 3.1684mm] [114.44mil 3.1684mm] [115.09mil 3.1684mm] [117.20mil 123.98mil] 
+		[118.40mil 122.03mil] [118.40mil 121.43mil] [118.40mil 120.73mil] [116.99mil 118.61mil] [114.92mil 118.23mil] 
+		[114.27mil 118.23mil] [102.12mil 118.23mil] [102.12mil 112.91mil] [114.22mil 112.91mil] [114.92mil 112.91mil] 
+		[117.20mil 112.10mil] [118.40mil 109.98mil] [118.40mil 109.33mil] [118.40mil 108.79mil] [117.53mil 107.27mil] 
+		[115.14mil 106.40mil] [114.38mil 106.40mil] [102.12mil 106.40mil] [102.12mil 101.09mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[117.04mil 2.0287mm] [117.75mil 2.0287mm] [120.02mil 80.69mil] [3.0927mm 82.80mil] [3.1148mm 85.41mil] 
+		[122.85mil 87.25mil] [122.85mil 87.90mil] [122.85mil 88.66mil] [122.57mil 91.00mil] [121.60mil 2.3815mm] 
+		[119.48mil 95.88mil] [116.72mil 96.86mil] [115.79mil 96.96mil] [115.79mil 91.86mil] [116.06mil 91.81mil] 
+		[117.64mil 91.10mil] [118.61mil 89.15mil] [118.61mil 88.55mil] [118.61mil 87.96mil] [118.23mil 86.28mil] 
+		[116.77mil 85.08mil] [116.28mil 85.08mil] [115.85mil 85.08mil] [114.65mil 86.71mil] [114.65mil 86.93mil] 
+		[113.95mil 91.70mil] [113.79mil 92.52mil] [112.00mil 95.93mil] [108.58mil 97.62mil] [107.49mil 97.62mil] 
+		[106.35mil 97.62mil] [102.93mil 95.66mil] [101.58mil 92.52mil] [101.58mil 91.48mil] [101.58mil 90.40mil] 
+		[102.56mil 87.31mil] [104.18mil 85.19mil] [104.51mil 84.92mil] [106.41mil 86.55mil] [105.38mil 88.99mil] 
+		[105.38mil 89.80mil] [105.38mil 90.18mil] [105.86mil 91.43mil] [107.33mil 92.30mil] [107.82mil 92.30mil] 
+		[108.36mil 92.30mil] [110.04mil 91.21mil] [110.75mil 89.15mil] [110.86mil 88.66mil] [110.91mil 88.12mil] 
+		[111.83mil 85.19mil] [111.94mil 85.08mil] [109.39mil 85.08mil] [2.7592mm 85.08mil] [106.41mil 86.55mil] 
+		[104.51mil 84.92mil] [104.18mil 2.1557mm] [102.34mil 84.49mil] [102.12mil 84.43mil] [102.12mil 78.68mil] 
+		[102.93mil 78.68mil] [102.99mil 78.84mil] [103.69mil 79.49mil] [105.48mil 2.0287mm] [106.08mil 2.0287mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[122.36mil 62.03mil] [119.32mil 62.03mil] [119.32mil 62.08mil] [116.50mil 63.33mil] [113.35mil 62.19mil] 
+		[112.32mil 62.19mil] [111.29mil 62.19mil] [108.36mil 63.06mil] [106.52mil 65.82mil] [106.52mil 1.6952mm] 
+		[106.52mil 67.56mil] [108.31mil 70.00mil] [2.8227mm 70.92mil] [112.10mil 70.92mil] [113.30mil 70.92mil] 
+		[116.93mil 69.57mil] [118.29mil 67.45mil] [118.29mil 1.6952mm] [118.29mil 65.88mil] [116.50mil 63.33mil] 
+		[119.32mil 62.08mil] [119.65mil 1.5809mm] [121.54mil 1.6223mm] [122.85mil 66.96mil] [122.85mil 67.99mil] 
+		[122.85mil 68.75mil] [122.19mil 71.14mil] [3.0541mm 73.85mil] [116.99mil 75.70mil] [113.57mil 76.40mil] 
+		[112.48mil 76.40mil] [111.29mil 76.40mil] [107.82mil 75.70mil] [104.56mil 73.85mil] [102.61mil 71.08mil] 
+		[102.01mil 68.53mil] [102.01mil 67.72mil] [102.01mil 66.80mil] [102.93mil 64.14mil] [104.62mil 62.51mil] 
+		[105.05mil 62.30mil] [104.94mil 1.5809mm] [102.56mil 1.5809mm] [2.5814mm 1.5809mm] [98.97mil 63.27mil] 
+		[97.89mil 65.66mil] [97.89mil 66.47mil] [97.89mil 67.18mil] [98.49mil 69.35mil] [99.68mil 70.11mil] 
+		[99.95mil 70.16mil] [99.95mil 75.97mil] [98.87mil 75.91mil] [95.29mil 72.98mil] [93.87mil 68.59mil] 
+		[93.87mil 67.12mil] [93.87mil 65.66mil] [94.80mil 61.32mil] [97.18mil 58.28mil] [100.22mil 57.09mil] 
+		[102.45mil 56.93mil] [103.21mil 56.93mil] [122.36mil 56.93mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[122.36mil 52.10mil] [102.12mil 52.10mil] [102.12mil 46.78mil] [122.36mil 46.78mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[129.68mil 46.78mil] [129.68mil 52.10mil] [3.1684mm 52.10mil] [3.1684mm 46.78mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[109.50mil 29.69mil] [108.96mil 29.69mil] [107.33mil 30.45mil] [105.97mil 32.57mil] [105.97mil 33.27mil] 
+		[105.97mil 33.81mil] [106.68mil 35.60mil] [108.41mil 36.85mil] [110.53mil 37.28mil] [112.00mil 37.39mil] 
+		[112.54mil 37.39mil] [113.46mil 37.39mil] [116.39mil 36.53mil] [118.40mil 33.98mil] [118.40mil 33.16mil] 
+		[118.40mil 32.51mil] [117.31mil 30.56mil] [115.47mil 29.69mil] [115.14mil 0.7526mm] [115.14mil 0.6162mm] 
+		[116.12mil 24.32mil] [118.99mil 25.40mil] [121.33mil 27.68mil] [122.52mil 30.45mil] [122.85mil 32.46mil] 
+		[122.85mil 33.16mil] [122.85mil 34.25mil] [121.98mil 37.56mil] [119.70mil 40.54mil] [116.12mil 42.28mil] 
+		[112.75mil 1.0889mm] [111.67mil 1.0889mm] [110.80mil 1.0889mm] [108.25mil 42.44mil] [105.00mil 41.03mil] 
+		[102.50mil 38.15mil] [101.58mil 34.68mil] [101.58mil 33.54mil] [101.58mil 32.40mil] [102.50mil 28.98mil] 
+		[104.73mil 26.16mil] [107.33mil 24.75mil] [108.96mil 24.32mil] [109.50mil 0.6162mm] 
+	)
+)
+Layer(6 "silk")
+(
+)
+NetList()
+(
+	Net("+3.3V" "(unknown)")
+	(
+		Connect("B1-2")
+		Connect("C1-1")
+		Connect("R1-1")
+		Connect("R2-2")
+		Connect("R3-2")
+		Connect("R4-2")
+		Connect("U2-7")
+	)
+	Net("GND" "(unknown)")
+	(
+		Connect("B1-1")
+		Connect("C1-2")
+		Connect("J1-1")
+		Connect("J3-3")
+		Connect("J3-5")
+		Connect("J3-9")
+		Connect("U2-2")
+	)
+	Net("RST" "(unknown)")
+	(
+		Connect("J3-10")
+	)
+	Net("TCK" "(unknown)")
+	(
+		Connect("D1-1")
+		Connect("J3-4")
+		Connect("R2-1")
+		Connect("U2-8")
+	)
+	Net("TDI" "(unknown)")
+	(
+		Connect("J3-8")
+	)
+	Net("TDO" "(unknown)")
+	(
+		Connect("J3-6")
+	)
+	Net("TMS" "(unknown)")
+	(
+		Connect("J3-2")
+		Connect("U2-4")
+	)
+	Net("TPWR" "(unknown)")
+	(
+		Connect("J3-1")
+		Connect("R1-2")
+	)
+	Net("unnamed_net1" "(unknown)")
+	(
+		Connect("C2-1")
+		Connect("D2-3")
+	)
+	Net("unnamed_net2" "(unknown)")
+	(
+		Connect("C2-2")
+		Connect("R3-1")
+		Connect("U2-3")
+	)
+	Net("unnamed_net3" "(unknown)")
+	(
+		Connect("J1-5")
+		Connect("U2-1")
+	)
+	Net("unnamed_net4" "(unknown)")
+	(
+		Connect("D2-1")
+		Connect("R4-1")
+		Connect("U2-6")
+	)
+	Net("unnamed_net5" "(unknown)")
+	(
+		Connect("D1-3")
+		Connect("J1-4")
+	)
+	Net("unnamed_net6" "(unknown)")
+	(
+		Connect("D2-2")
+		Connect("J1-6")
+	)
+)
